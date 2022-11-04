@@ -1,6 +1,7 @@
 package main
 
 import (
+	"go-server/database"
 	"go-server/src/routes"
 	"os"
 
@@ -22,6 +23,7 @@ func main () {
         google.New(GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, "http://localhost:"+PORT+"/api/auth/google/callback"),
     )
     
+    database.SqliteDBC()
     app := fiber.New()
     route.SetupRoutes(app)
     app.Listen(":" + PORT)
