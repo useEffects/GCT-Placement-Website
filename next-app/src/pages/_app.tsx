@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import { createTheme, ThemeProvider } from '@mui/material'
-const {myColors} = require("../../themeOveride.js")
+import { createTheme, ThemeProvider } from '@mui/material/styles'
+const myColors = require("../../themeOveride.js")
 const theme = createTheme({
   palette: myColors
 })
