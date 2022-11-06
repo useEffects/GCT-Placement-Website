@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendar } from '@fortawesome/free-solid-svg-icons'
 import Carousel3 from "../@components/home.carousel3";
 import Carousel4 from "../@components/home.carousel4";
+import Footer from "../@components/footer";
 
 export default function Home() {
 
@@ -77,11 +78,13 @@ export default function Home() {
         <Carousel3 />
       </div>
       <Space />
-      <div>
+      <div className="w-full">
         <Header text={"peculiar peeks"} />
         <p className="text-center">A glimpse of all the internal activities of each department.</p>
         <Carousel4 />
       </div>
+      <Space />
+      <Footer />
     </Container>
   </>)
 }

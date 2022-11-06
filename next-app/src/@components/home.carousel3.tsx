@@ -24,7 +24,7 @@ export default function Carousel3 () {
     ]
    return (<div className="w-full h-[700px] my-4 overflow-auto">
     <div className={`w-[1000px] h-full flex justify-between items-center py-4`}>
-        {datas.map((data, i) => <div key={i} className={`w-1/${datas.length} h-full shadow-lg bg-white rounded-3xl mx-4 p-4 flex justify-between items-center flex-col`}>
+        {datas.map((data, i) => <div key={i} className={`w-full h-full shadow-lg bg-white rounded-3xl mx-4 p-4 flex justify-between items-center flex-col`}>
             <img className="ml-4 mb-24 mr-auto h-[100px] w-[100px] object-contain bg-gray-200"/>
             <img className="w-[200px] h-[200px] rounded-full bg-gray-200"/>
             <p className="text-lg font-bold"> {data.name} </p>
