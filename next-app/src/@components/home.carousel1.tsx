@@ -1,19 +1,22 @@
+
+import reactimage from "../images/Happystudent-pana1.png"
+import firstimage from "../images/logo22.png"
 export const Carousel1 = () => {
     const datas = [
         {
-            imgSrc: "",
+            imgSrc: {firstimage},
             header: "Number Of Students Placed",
             content: "300 Bright and Astute minds who have managed to get placed successfully",
             stat: 300
         },
         {
-            imgSrc: "",
+            imgSrc: {reactimage},
             header: "Number Of Students Placed",
             content: "300 Bright and Astute minds who have managed to get placed successfully",
             stat: 300
         },
         {
-            imgSrc: "",
+            imgSrc: "images/Moneyincome-amico1.png",
             header: "Number Of Students Placed",
             content: "300 Bright and Astute minds who have managed to get placed successfully",
             stat: 300
