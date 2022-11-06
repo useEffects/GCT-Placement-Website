@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+   font-family: 'Ubuntu', sans-serif !important; 
+}
+
+.rw-1{
+    @apply w-[calc(100%-1rem)]
+}
+
+.rw-2{
+    @apply w-[calc(100%-2rem)]
+}
