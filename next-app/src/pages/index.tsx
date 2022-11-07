@@ -33,32 +33,22 @@ export default function Home() {
 
   return (<>
     <Container className="flex flex-col items-center">
-      <div className="rw-1 h-[calc(100vh-2rem)] flex flex-col items-center bg-gray-200 rounded-2xl py-12 px-4 my-4 lg:flex-row">
-          <div className="lg:flex-initial w-50%">
-              <div className="-rotate-[5deg] font-extrabold text-2xl">
+      <div className="rw-1 h-[calc(100vh-2rem)] flex flex-col items-center bg-gray-200 rounded-2xl py-12 px-4 my-4 md:grid grid-rows-2 grid-cols-2 gap-4 justify-center md:px-12">
+          <div className="flex justify-center items-center">
+              <div className="-rotate-[0deg] font-extrabold text-2xl md:text-5xl">
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-1/4 before:bg-white before:z-[-1]">Placement And</p>
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-2 before:bg-blue-100 before:z-[-1] w-auto">Training</p>
                 <p className="mb-12">Cell</p>
               </div>
-              <div className="hidden lg:block text-lg font-bold font-italic text-center">
-                  <p className="text-lg font-bold font-italic text-center">A carefully curated space for sharing all placement related activities in order to motivate and facilitate students to train meticulously and achieve great results.</p>
-              </div>
           </div>
-          <div className="w-50%">
-          <img src={gctimage.src} className="object-contain h-[300px] lg:flex-1"/>
-          </div>
-          <div>
-          <p className="text-lg font-bold font-italic text-center lg:hidden">A carefully curated space for sharing all placement related activities in order to motivate and facilitate students to train meticulously and achieve great results.</p>
-          </div>
-      </div>
+          <img src={gctimage.src} className="object-contain h-[300px] md:h-full row-start-1 col-start-2 row-span-2"/>
+          <p className="text-lg font-bold italic text-center md:text-2xl">A carefully curated space for sharing all placement related activities in order to motivate and facilitate students to train meticulously and achieve great results.</p>
+        </div>
       <Space />
       <Header text={"placement statistics 2022"} />
       <Carousel1 />
       <Space />
       <Header text={"our major recruiters"} />
-      <p className="my-4 text-center">
-        It is a proud moment for us to present our major recruiters. We have been constantly inundated with support from these successful companies who have provided deserving positions to our students.
-      </p>
       <Carousel2 />
       <Space />
 
