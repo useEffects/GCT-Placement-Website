@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Gctlogo from "../images/logos/GCTlogo.png"
 
 export default function Footer () {
     const datas = [
@@ -61,7 +62,7 @@ export default function Footer () {
             </div>)}
         </div>
         <div className="border-t-2 border-gray-400 w-full mt-12 p-4 flex justify-evenly items-center">
-            <img src="" className="w-12 h-14 bg-gray-300"/>
+            <img src={Gctlogo.src} className="w-12 h-14 bg-gray-300"/>
             <p> 2022 GCT. All rights reserved. </p>
         </div>
     </div>
