@@ -31,9 +31,7 @@ type placement = {
         placed: number,
         meta: [number, number, number]
     },
-    patents: {
-        header: string,
-        contents: string[],
+    patents: blog & {
         link: string
     }[]
 }
