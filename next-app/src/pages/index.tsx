@@ -8,7 +8,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendar } from '@fortawesome/free-solid-svg-icons'
 import Carousel3 from "../@components/home.carousel3";
 import Carousel4 from "../@components/home.carousel4";
-import Footer from "../@components/footer";
 import gctimage from "../images/gctmainbuild.png"
 import ramesh from "../images/RameshSir.png"
 import DataRepImg from "../images/DataReportPana.png"
@@ -33,7 +32,7 @@ export default function Home() {
 
   return (<>
     <Container className="flex flex-col items-center">
-      <div className="rw-1 h-[calc(100vh-2rem)] flex flex-col items-center bg-gray-200 rounded-2xl py-12 px-4 my-4 md:grid grid-rows-2 grid-cols-2 gap-4 justify-center md:px-12">
+      <div className="rw-1 h-[calc(100vh-8rem)] flex flex-col items-center bg-gray-200 rounded-2xl py-12 px-4 my-4 md:grid grid-rows-2 grid-cols-2 gap-4 justify-center md:px-12">
           <div className="flex justify-center items-center">
               <div className="-rotate-[0deg] font-extrabold text-2xl md:text-5xl">
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-1/4 before:bg-white before:z-[-1]">Placement And</p>
@@ -42,7 +41,7 @@ export default function Home() {
               </div>
           </div>
           <img src={gctimage.src} className="object-contain h-[300px] md:h-full row-start-1 col-start-2 row-span-2"/>
-          <p className="text-lg font-bold italic text-center md:text-2xl">A carefully curated space for sharing all placement related activities in order to motivate and facilitate students to train meticulously and achieve great results.</p>
+          <p className="text-lg font-bold italic text-center md:text-3xl">A carefully curated space for sharing all placement related activities in order to motivate and facilitate students to train meticulously and achieve great results.</p>
         </div>
       <Space />
       <Header text={"placement statistics 2022"} />
@@ -102,7 +101,6 @@ export default function Home() {
         <Carousel4 />
       </div>
       <Space />
-      <Footer />
     </Container>
   </>)
 }

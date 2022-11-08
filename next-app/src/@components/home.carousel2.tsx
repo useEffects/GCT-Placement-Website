@@ -25,7 +25,7 @@ export default function Carousel2 () {
     return (<div className="h-[150px] my-4 w-full overflow-scroll lg:overflow-hidden">
         <div className={`w-[1000px] h-full py-4 flex justify-evenly lg:w-[1154px]`}>
             {datas.map((data, i) => <div className={`w-1/${datas.length} h-full bg-white shadow-lg rounded-3xl mx-4 flex justify-center items-center`} key={i}>
-            <img className="bg-grey-600 object-contain w-full" src={data.imgSrc} />
+            <img className="bg-grey-600 object-contain h-full" src={data.imgSrc} />
             </div>)}
         </div> 
     </div>)
