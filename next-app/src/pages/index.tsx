@@ -32,7 +32,7 @@ export default function Home() {
 
   return (<>
     <Container className="flex flex-col items-center">
-      <div className="rw-1 h-[calc(100vh-8rem)] flex flex-col items-center bg-gray-200 rounded-2xl py-12 px-4 my-4 md:grid grid-rows-2 grid-cols-2 gap-4 justify-center md:px-12">
+      <div className="rw-1 min-h-[calc(100vh-8rem)] flex flex-col items-center bg-gray-200 rounded-2xl py-12 px-4 my-4 md:grid grid-rows-2 grid-cols-2 gap-4 justify-center md:px-12">
           <div className="flex justify-center items-center">
               <div className="-rotate-[0deg] font-extrabold text-2xl md:text-5xl">
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-1/4 before:bg-white before:z-[-1]">Placement And</p>
@@ -72,13 +72,11 @@ export default function Home() {
           <Header text={"placement records"}/>
           <p className="my-12 text-center bg-transparent">We set those impossible records and broke them into million pieces by achieving greater success.
 -An Assortment of our Achievements</p>
-          <div className="lg:flex al items-center">
-            <div className="lg:flex-1">
-              <img src={DataRepImg.src} className="object-contain my-12 h-[300px] bg-gray-300 w-full"/>
-            </div>
-            <div className="lg:flex flex-col flex-1 ">
+          <div className="lg:flex justify-between items-center">
+              <img src={DataRepImg.src} className="object-contain my-12 h-[300px] bg-white rounded-lg shadow-lg w-full md:w-[calc(50%-1rem)]"/>
+            <div className="lg:flex flex-col md:w-[calc(50%-1rem)]">
                 {datas1.map((data, i) => (
-                <div key={i} className="flex m-4 justify-between items-center">
+                <div key={i} className="flex m-4 justify-between md:justify-around items-center">
                 <FontAwesomeIcon className="text-slate-600 text-2xl" icon={faCalendar}/>
                 <p className="text-lg font-bold"> {data.year} </p>
                 <Button className="bg-primary-main" variant="contained"> download </Button>

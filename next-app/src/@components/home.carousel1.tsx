@@ -25,7 +25,7 @@ export const Carousel1 = () => {
         }
 
     ]
-    return (<div className="w-full overflow-scroll bg-transparent h-[700px] my-4 lg:overflow-hidden">
+    return (<div className="w-full overflow-scroll bg-transparent h-[700px] mb-4 lg:overflow-hidden">
         <div className={`w-[1000px] py-12 flex h-full lg:w-[1154px]`}>
             {datas.map((data, i) => (<div key={i} className={`shadow-lg w-1/${datas.length} bg-white rounded-3xl flex flex-col justify-around items-center h-full mx-4 py-12 px-4`}>
                 <img className="object-contain w-full bg-gray-100" src={data.imgSrc}/>

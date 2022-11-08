@@ -52,7 +52,7 @@ export default function Footer () {
     ]
     return <div className="px-12">
     <div className="w-full flex flex-col md:flex-row-reverse">
-        <div className="flex items-center w-full pb-12 col-2 col-span-2">
+        <div className="flex items-center justify-center w-full pb-12 col-2 col-span-2">
             {datas.map((data, i) => <div key={i} className="flex flex-col justify-start items-center w-1/3 mx-4 h-full">
                 <p className="text-lg md:text-xl font-bold text-center my-4"> {data.header} </p>
                 <div className="flex flex-col items-start justify-start">
@@ -62,15 +62,15 @@ export default function Footer () {
                 </div>
             </div>)}
         </div>
-        <div className="border-t-2 flex justify-between items-center md:border-t-0 border-gray-400 w-full mt-12 p-4 flex justify-evenly items-center">
+        <div className="hidden md:block border-t-2 flex justify-between items-center md:border-t-0 border-gray-400 w-full mt-12 p-4 flex justify-evenly items-center">
             <img src={Gctlogo.src} className="w-14 md:20 h:24 object-contain"/>
             <div className="">
-                <p className="md:text-lg text-right font-bold uppercase"> 2022 GCT.<br></br>  All rights reserved. </p>
+                <p className="md:text-lg text-right font-bold uppercase"> 2022 GCT.<br></br>  All rights <br className="md:hidden"/> reserved. </p>
                 <p className="my-4 text-gray-600 hidden md:inline"> Training & Placement Cell </p>
             </div>
         </div>
     </div>
-        <div className="w-full my-4 flex items-center p-4 border-t-2 border-gray-600">
+        <div className="w-full my-4 flex items-center p-4 border-t-2 border-gray-400">
             <p className="text-gray-600"> @ GCT - 2022 </p>
         </div>
     </div> 
