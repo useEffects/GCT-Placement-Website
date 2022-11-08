@@ -51,8 +51,8 @@ export default function Footer () {
         }
     ]
     return <div className="px-12">
-    <div className="w-full flex flex-col md:flex-row-reverse">
-        <div className="flex items-center justify-center w-full pb-12 col-2 col-span-2">
+    <div className="w-full flex flex-col md:flex-row-reverse justify-around">
+        <div className="flex items-center justify-center w-full pb-12 col-2 col-span-2 md:w-1/3">
             {datas.map((data, i) => <div key={i} className="flex flex-col justify-start items-center w-1/3 mx-4 h-full">
                 <p className="text-lg md:text-xl font-bold text-center my-4"> {data.header} </p>
                 <div className="flex flex-col items-start justify-start">
@@ -62,7 +62,7 @@ export default function Footer () {
                 </div>
             </div>)}
         </div>
-        <div className="hidden md:block border-t-2 flex justify-between items-center md:border-t-0 border-gray-400 w-full mt-12 p-4 flex justify-evenly items-center">
+        <div className="hidden md:block border-t-2 flex justify-between items-center md:border-t-0 border-gray-400 w-full md:w-1/3 mt-12 p-4 flex justify-evenly items-center">
             <img src={Gctlogo.src} className="w-14 md:20 h:24 object-contain"/>
             <div className="">
                 <p className="md:text-lg text-right font-bold uppercase"> 2022 GCT.<br></br>  All rights <br className="md:hidden"/> reserved. </p>
