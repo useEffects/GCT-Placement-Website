@@ -39,3 +39,20 @@ type placement = {
 }
 
 export const placementDatas: placement[] = []
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
