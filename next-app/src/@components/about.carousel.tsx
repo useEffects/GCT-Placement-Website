@@ -12,7 +12,7 @@ import { autoPlay } from 'react-swipeable-views-utils';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
-const images = [
+const datas = [
   {
     label: 'San Francisco – Oakland Bay Bridge, United States',
     imgPath:
@@ -38,7 +38,7 @@ const images = [
 function about () {
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
-  const maxSteps = images.length;
+  const maxSteps = datas.length;
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
@@ -65,7 +65,7 @@ function about () {
           bgcolor: 'background.default',
         }}
       >
-        <Typography>{images[activeStep].label}</Typography>
+        <Typography>{datas[activeStep].label}</Typography>
       </Paper>
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
@@ -73,7 +73,7 @@ function about () {
         onChangeIndex={handleStepChange}
         enableMouseEvents
       >
-        {images.map((step, index) => (
+        {datas.map((step, index) => (
           <div key={step.label}>
             {Math.abs(activeStep - index) <= 2 ? (
               <Box
