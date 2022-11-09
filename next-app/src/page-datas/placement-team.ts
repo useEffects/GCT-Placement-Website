@@ -1,7 +1,6 @@
 type studentType = {
 
     category: string,
-
     branches: {
         branchName: string,
         students:
@@ -12,7 +11,7 @@ type studentType = {
         }[]
        
     }[]
-}[]
+}
 
 type teamType = {
     staffName: string,
@@ -27,8 +26,7 @@ export let teamDatas: teamType =
         staffName:"Dr.K.Ranjith Kumar",
         staffEmail:"gctplacements@gct.ac.in",
         staffPhone:"+91 94430 15058",
-        studentsTeams:
-        [
+        studentsTeams: [
             {
             category:"Circuit Branches COHORT",
             branches:[
