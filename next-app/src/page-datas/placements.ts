@@ -7,6 +7,7 @@ type keyValue = {
     content: string
 }
 type placement = {
+    category: string,
     layoutMeta: {
         backgroundImagesName: string[],
         colors: {
@@ -38,6 +39,7 @@ type placement = {
 
 export const placementDatas: placement[] = [
     {
+        category: "Programming Branches",
         layoutMeta: {
             backgroundImagesName: ["image1.jpg", "image2.jpg"],
             colors: {
@@ -174,6 +176,7 @@ export const placementDatas: placement[] = [
         ]
     } ,
     {
+        category: "Civil Engineering",
         layoutMeta: {
             backgroundImagesName: ["image1.jpg", "image2.jpg"],
             colors: {
@@ -295,6 +298,7 @@ export const placementDatas: placement[] = [
         ]
     },
     {
+        category: "Circuit Branches",
         layoutMeta: {
             backgroundImagesName: ["image1.jpg", "image2.jpg"],
             colors: {
@@ -432,8 +436,8 @@ export const placementDatas: placement[] = [
             }
         ]
     },
-    
     {
+        category: "Mechanical and Production Engineering",
         layoutMeta: {
             backgroundImagesName: ["image1.jpg", "image2.jpg"],
             colors: {
@@ -444,7 +448,7 @@ export const placementDatas: placement[] = [
         },
         departmentMeta: [
             {
-                name: "Mechanical  Engineering",
+                name: "Mechanical Engineering",
                 syllabus: "link"
             },
             {
@@ -563,6 +567,7 @@ export const placementDatas: placement[] = [
         ]
     },
     {
+        category: "Industrial Biotechnology",
         layoutMeta: {
             backgroundImagesName: ["image1.jpg", "image2.jpg"],
             colors: {

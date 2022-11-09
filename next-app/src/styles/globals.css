@@ -19,3 +19,13 @@ background-color: #FBFBFB;
 .rw-2{
     @apply w-[calc(100%-2rem)]
 }
+
+.circle1 {
+    transform: translateX(-50%)
+}
+.circle2 {
+    transform: translateX(-50%) scale(150%)
+}
+.circle3 {
+    transform: translateX(-50%) scale(200%)
+}
