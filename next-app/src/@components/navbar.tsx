@@ -20,12 +20,14 @@ export default function Navbar () {
     <div className="h-20">
         <AppBar elevation={6} className="fixed h-20">
             <Toolbar className="bg-white px-8 md:px-12 h-full flex justify-between items-center">
-                <div className="flex items-center">
+                <div className="h-full">
+                    <Link className="cursor-pointer w-full h-full flex items-center" href="/">
                   <img src={gctLogo.src} />  
                   <p className="md:text-lg ml-4 uppercase text-slate-900 font-bold"> government college of technology </p>
+                    </Link>
                 </div>
                 <div className="hidden md:flex [&>*]:mx-2 [&>*]:font-bold">
-                    <Button className="text-black"> about </Button>
+                    <Button className="text-black"> <Link href="/about"> about </Link> </Button>
                     <div>
                     <Button className="text-black font-bold" onClick={handleClick}> 
                         department 
@@ -33,15 +35,14 @@ export default function Navbar () {
                     </Button>
                     <Menu anchorEl={anchorEl} open={open} onClose={handleClose}>
                         <MenuItem className="my-4">
-                            <Link className="w-full h-full" href={"/departments"}> Overview </Link>
+                            <Link className="w-full h-full" href={"/departments"} onClick={() => setAnchorEl(null)}> Overview </Link>
                         </MenuItem>
                         {lists.map((list, i) => <MenuItem className="my-4" key={i}> 
-                            <Link className="w-full h-full" href={"/departments/"+ list.toLowerCase().replace(/ /g, "-")}> {list} </Link>
+                            <Link className="w-full h-full" href={"/departments/"+ list.toLowerCase().replace(/ /g, "-")} onClick={() => setAnchorEl(null)}> {list} </Link>
                         </MenuItem>)}
                     </Menu>
                     </div>
-                    <Button className="text-black"> contact us </Button>
-                    <Button className="text-black"> snapshots </Button>
+                    <Button className="text-black"> <Link href="/contact"> contact us </Link> </Button>
                     <Button variant="contained" className="text-white bg-primary-main"> 
                     login  
                     <FontAwesomeIcon className="text-inherit ml-2" icon={faRightToBracket}/>
