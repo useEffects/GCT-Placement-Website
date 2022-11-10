@@ -29,15 +29,14 @@ export default function Carousel3 () {
             cImgSrc: LTIimg.src,
         },
     ]
-   return (<div className="w-full h-[700px] my-4 overflow-auto lg:overflow-hidden">
-    <div className={`w-[1000px]  h-full flex justify-evenly items-center py-4 lg:w-[1121px]`}>
-        {datas.map((data, i) => <div key={i} className={`w-full h-full shadow-lg bg-white rounded-3xl mx-4 p-4 flex justify-between items-center flex-col`}>
-            <img src={ExcMark.src} className="ml-4 mr-auto"/>
+   return (<div className="w-full my-4 overflow-auto lg:overflow-hidden">
+    <div className={`w-[1000px] flex justify-center items-center lg:w-[1121px]`}>
+        {datas.map((data, i) => <div key={i} className={`w-full shadow-lg bg-white rounded-3xl mx-4 p-4 flex justify-between items-center flex-col`}>
             <img src={data.imgSrc} className="w-[200px] h-[200px] rounded-full bg-gray-200"/>
-            <p className="text-lg font-bold"> {data.name} </p>
-            <p className=""> {data.dept} </p>
+            <p className="text-lg font-bold mt-1"> {data.name} </p>
+            <p className="mt-1"> {data.dept} </p>
             <p> {data.batch} </p>
-            <img src={data.cImgSrc} className="object-contain h-[100px] my-12"/>
+            <img src={data.cImgSrc} className="object-contain h-[100px] my-2"/>
         </div>)}
     </div>
    </div>) 
