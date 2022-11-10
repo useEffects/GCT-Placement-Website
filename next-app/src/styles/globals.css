@@ -61,8 +61,7 @@ background-color: #FBFBFB;
 }
 
 .aboutinnercard{
-    margin: 20px;
-    width: 50%;
+    width: 30%;
     height: 250px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
@@ -83,9 +82,7 @@ background-color: #FBFBFB;
 .aboutimgrow{
     display: flex;
     width: 100%;
-    align-items: center;
     background-color: #eaeaea;
-
     margin-top: 40px;
     padding: 40px;
 }

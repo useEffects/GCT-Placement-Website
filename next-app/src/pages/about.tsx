@@ -1,6 +1,7 @@
 import { Container } from '@mui/material'
+import AboutCarousel from '../@components/about.carousel'
+import Space from '../@styled-components/space'
 import clusterimg from '../images/Group 9133.png'
-import linkedin from './Vector.svg'
 
 export default function about () {
 
@@ -62,15 +63,15 @@ export default function about () {
       departname:"EEE",
       linkedin:"https://www.linkedin.com/in/uthra-priyadarshini-a816a7212"
     },
-    
-  
   ]
-
   return <div className="aboutpage">
-    <div className="aboutbanner"></div>
+    <div className="aboutbanner">
+      <AboutCarousel />
+    </div>
+    <Space />
     <Container>
     <h1 className="aboutt1 text-center">Futuristic Features of this Platform</h1>
-    <div className="aboutinnercaro justify-center w-full">
+    <div className="aboutinnercaro justify-between w-full">
       {
         aboutinnercards.map((e) => {
           return <div className="aboutinnercard">
@@ -80,6 +81,7 @@ export default function about () {
         })
       }
     </div>
+    <Space />
     <div className="aboutimgrow">
       <div className='abtiner1'>
         <img src={clusterimg.src} alt="" />
@@ -100,8 +102,6 @@ export default function about () {
         </div>
         })
       }
-     
-      
     </div>
     </Container>
   </div>

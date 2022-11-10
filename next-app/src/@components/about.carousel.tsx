@@ -35,38 +35,42 @@ const datas = [
   },
 ];
 
-function about () {
+function AboutCarousel() {
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
-  const maxSteps = datas.length;
 
-  const handleNext = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep + 1);
-  };
+  const contents = [
+    {
+      header: "About us",
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n"
+    }, {
+      header: "",
+      content: ""
+    }, {
+      header: "",
+      content: ""
+    }, {
+      header: "",
+      content: ""
+    }
+  ]
 
-  const handleBack = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep - 1);
-  };
+  // const maxSteps = datas.length;
+  //
+  // const handleNext = () => {
+  //   setActiveStep((prevActiveStep) => prevActiveStep + 1);
+  // };
+  //
+  // const handleBack = () => {
+  //   setActiveStep((prevActiveStep) => prevActiveStep - 1);
+  // };
 
   const handleStepChange = (step: number) => {
     setActiveStep(step);
   };
 
   return (
-    <Box sx={{ maxWidth: 400, flexGrow: 1 }}>
-      <Paper
-        square
-        elevation={0}
-        sx={{
-          display: 'flex',
-          alignItems: 'center',
-          height: 50,
-          pl: 2,
-          bgcolor: 'background.default',
-        }}
-      >
-        <Typography>{datas[activeStep].label}</Typography>
-      </Paper>
+    <Box className="w-full h-full relative">
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}
@@ -76,23 +80,29 @@ function about () {
         {datas.map((step, index) => (
           <div key={step.label}>
             {Math.abs(activeStep - index) <= 2 ? (
+              <div className='h-[500px] flex justify-center items-center w-full relative bg-black'>
+              <div className='relative z-10 w-1/2'>
+                <p className='text-6xl text-white my-4'> {contents[0].header} </p>
+                <p className='text-2xl text-white'> {contents[0].content} </p>
+              </div>
               <Box
                 component="img"
+                className='opacity-30 h-full absolute top-0 bottom-0 left-0 right-0'
                 sx={{
-                  height: 255,
                   display: 'block',
-                  maxWidth: 400,
                   overflow: 'hidden',
                   width: '100%',
                 }}
                 src={step.imgPath}
                 alt={step.label}
               />
+              </div>
             ) : null}
           </div>
         ))}
       </AutoPlaySwipeableViews>
-      <MobileStepper
+      { /* <MobileStepper
+        className="absolute top-0 left-0 right-0"
         steps={maxSteps}
         position="static"
         activeStep={activeStep}
@@ -120,9 +130,9 @@ function about () {
             Back
           </Button>
         }
-      />
+      /> */ }
     </Box>
   );
 }
 
-export default about;
+export default AboutCarousel;
