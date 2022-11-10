@@ -41,7 +41,7 @@ export default function Home() {
               </div>
           </div>
           <img src={gctimage.src} className="object-contain h-[300px] md:h-full row-start-1 col-start-2 row-span-2"/>
-          <p className="text-lg font-bold italic text-center md:text-3xl">A carefully curated space for sharing all placement related activities in order to motivate and facilitate students to train meticulously and achieve great results.</p>
+          <p className="text-lg font-bold italic text-justify md:text-3xl">A carefully curated space for sharing all placement related activities in order to motivate and facilitate students to train meticulously and achieve great results.</p>
         </div>
       <Space />
       <Header text={"placement statistics 2022"} />
