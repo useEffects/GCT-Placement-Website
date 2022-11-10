@@ -68,7 +68,6 @@ export default function about () {
     <div className="aboutbanner">
       <AboutCarousel />
     </div>
-    <Space />
     <Container>
     <h1 className="aboutt1 text-center">Futuristic Features of this Platform</h1>
     <div className="aboutinnercaro justify-between w-full">
@@ -96,9 +95,12 @@ export default function about () {
         devconner.map((dev) => {
           return  <div className="devcorcard">
           <img className='devcardimg' src="https://thumbs.dreamstime.com/b/portrait-handsome-smiling-young-man-folded-arms-smiling-joyful-cheerful-men-crossed-hands-isolated-studio-shot-172869765.jpg" alt="" />
-          <span className='devcardtitle'>{dev.name}</span>
+          <div style={{display:"flex", alignItems:"center", justifyContent:'center'}}>
+            <a href={dev.linkedin}> <img style={{marginRight:"10px", marginTop:"20px"}} className='linkedinimg' height={"20px"} width={"20px"} src={"https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png"} alt="" /></a>
+            <span className='devcardtitle'>{dev.name}</span>
+          </div>
           <span className='devcarddept'>{dev.departname}</span>
-          <a href={dev.linkedin}> <img className='linkedinimg' height={"20px"} width={"20px"} src={"https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png"} alt="" /></a>
+          
         </div>
         })
       }
