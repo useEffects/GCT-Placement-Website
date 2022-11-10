@@ -18,11 +18,13 @@ export default function Navbar () {
     const lists = placementDatas.map((p) => p.category)
     return (
     <div className="h-20">
-        <AppBar elevation={0} className="fixed h-20">
+        <AppBar elevation={6} className="fixed h-20">
             <Toolbar className="bg-white px-8 md:px-12 h-full flex justify-between items-center">
-                <div className="flex items-center">
+                <div className="h-full">
+                    <Link className="cursor-pointer w-full h-full flex items-center" href="/">
                   <img src={gctLogo.src} />  
                   <p className="md:text-lg ml-4 uppercase text-slate-900 font-bold"> government college of technology </p>
+                    </Link>
                 </div>
                 <div className="hidden md:flex [&>*]:mx-2 [&>*]:font-bold">
                     <Button className="text-black"> about </Button>
@@ -33,10 +35,10 @@ export default function Navbar () {
                     </Button>
                     <Menu anchorEl={anchorEl} open={open} onClose={handleClose}>
                         <MenuItem className="my-4">
-                            <Link className="w-full h-full" href={"/departments"}> Overview </Link>
+                            <Link className="w-full h-full" href={"/departments"} onClick={() => setAnchorEl(null)}> Overview </Link>
                         </MenuItem>
                         {lists.map((list, i) => <MenuItem className="my-4" key={i}> 
-                            <Link className="w-full h-full" href={"/departments/"+ list.toLowerCase().replace(/ /g, "-")}> {list} </Link>
+                            <Link className="w-full h-full" href={"/departments/"+ list.toLowerCase().replace(/ /g, "-")} onClick={() => setAnchorEl(null)}> {list} </Link>
                         </MenuItem>)}
                     </Menu>
                     </div>
