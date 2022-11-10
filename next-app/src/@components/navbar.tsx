@@ -18,7 +18,7 @@ export default function Navbar () {
     const lists = placementDatas.map((p) => p.category)
     return (
     <div className="h-20">
-        <AppBar elevation={0} className="fixed h-20">
+        <AppBar elevation={6} className="fixed h-20">
             <Toolbar className="bg-white px-8 md:px-12 h-full flex justify-between items-center">
                 <div className="flex items-center">
                   <img src={gctLogo.src} />  
