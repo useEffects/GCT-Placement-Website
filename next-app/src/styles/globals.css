@@ -29,3 +29,133 @@ background-color: #FBFBFB;
 .circle3 {
     transform: translateX(-50%) scale(200%)
 }
+
+
+.aboutpage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.aboutbanner{
+    height: 500px;
+    width: 100%;
+    background-color: #eaeaea;
+
+}
+
+.aboutt1{
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.aboutinnercaro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+.aboutinnercard{
+    margin: 20px;
+    width: 50%;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.abtinnert1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.aboutimgrow{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #eaeaea;
+
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.abtiner1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abtiner1 img{
+    height: 450px;
+    width: 450px;
+}
+
+.abtiner2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.abtiner2 span{
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 160%;
+color: #293241;
+letter-spacing: 2px;
+
+}
+
+.devconnercaro{
+    width: 100%;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));  justify-items: center;
+    align-items: center;
+
+}
+
+.devcorcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    height: 390px;
+    /* background-color: aqua; */
+    margin-bottom: 30px;
+  
+}
+
+.devcardimg{
+
+    width: auto;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.devcardtitle{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.linkedinimg{
+    margin-top: 10px;
+    cursor: pointer;
+}
