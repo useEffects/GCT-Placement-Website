@@ -30,11 +30,39 @@ export default function Home() {
   ]
 
   return (<>
-    <div className="h-screen w-full bg-black relative">
+    {/* <div className="h-[calc(100vh-3.5rem)] w-full bg-black relative">
       <img src={bgImg.src} className="w-full h-full absolute top-0 bottom-0 left-0 right-0"/>
       <div className="w-full h-2/3 absolute bg-black bottom-0 opacity-70"></div>
-    </div>
+      <Container className="flex justify-between w-full h-full relative z-10">
+        <div className="w-[66%] h-full">
+          <div className="w-full h-1/2 bg-black mt-[12%]">
+
+          </div> 
+          <div className="mt-12 w-full h-[calc(38%-5rem)] bg-black">
+
+          </div>
+        </div>
+        <div className="w-[33%] bg-black h-full">
+
+        </div>
+      </Container>
+    </div> */}
+<div className="w-full min-h-[calc(100vh-8rem)] overflow-clip md:h-[calc(100vh-8rem)] flex flex-col md:flex-row bg-gray-200 py-12 px-4 md:p-0">
+          <div className="flex flex-col w-full h-full justify-center items-center">
+              <div className="-rotate-[0deg] font-extrabold text-2xl md:text-5xl mt-2">
+                <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-1/4 before:bg-white before:z-[-1]">Placement And</p>
+                <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-2 before:bg-blue-100 before:z-[-1] w-auto">Training</p>
+                <p className="mb-12">Cell</p>
+              </div>
+          <p className="text-md w-1/2 italic text-justify md:text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          </div>
+         <div className="flex justify-end w-full bg-black h-full row-start-1 col-start-2 row-span-2">
+          <img src={gctimage.src} className="object-full opacity-30 h-[300px] md:h-full w-full"/>
+          </div>
+          </div>
     <Container className="flex flex-col items-center">
+
       <Space />
       <Header text={"placement statistics 2022"} />
       <Carousel1 />
@@ -91,20 +119,6 @@ export default function Home() {
       </div> */}
       <Space />
     </Container>
-<div className="w-full min-h-[calc(100vh-8rem)] overflow-clip md:h-[calc(100vh-8rem)] flex flex-col md:flex-row bg-gray-200 py-12 px-4 md:p-0">
-          <div className="flex flex-col w-full h-full justify-center items-center">
-              <div className="-rotate-[0deg] font-extrabold text-2xl md:text-5xl mt-2">
-                <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-1/4 before:bg-white before:z-[-1]">Placement And</p>
-                <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-2 before:bg-blue-100 before:z-[-1] w-auto">Training</p>
-                <p className="mb-12">Cell</p>
-              </div>
-          <p className="text-md font-bold w-1/2 italic text-justify md:text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          </div>
-         <div className="flex justify-end w-full bg-black h-full row-start-1 col-start-2 row-span-2">
-          <img src={gctimage.src} className="object-full opacity-30 h-[300px] md:h-full w-full"/>
-          </div>
-          </div>
   </>)
 }
 
