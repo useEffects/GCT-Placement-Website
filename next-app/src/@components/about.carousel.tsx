@@ -77,7 +77,7 @@ function about () {
           <div key={step.label}>
             {Math.abs(activeStep - index) <= 2 ? (
               <Box
-                component=".png"
+                component="t.png"
                 sx={{
                   height: 255,
                   display: 'block',

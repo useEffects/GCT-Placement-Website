@@ -17,7 +17,7 @@ type statisticsType = [
           package: "20000 PM"
         },
         {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Mu Sigma",
           students: 2,
           package: "5 lpa"
@@ -28,12 +28,12 @@ type statisticsType = [
           students: 6,
           package: "3.36 Lpa"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Exterro",
           students: 5,
           package: "3.25 lpa"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Edgeverve ",
           students: 1,
           package: "8 Lpa"
@@ -48,27 +48,27 @@ type statisticsType = [
           students: 1,
           package: "7.5lpa"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "CTS",
           students: 7,
           package: "4lpa"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "AQUAGREEN",
           students: 2,
           package: "4.25lpa"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "L&T Infotech",
           students: 2,
           package: "4.6lpa"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Sobha Constructions LLC (Dubai) ",
           students: 6,
           package: "13.53 lpa "
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Inmovidu Technologies (INTERN) ",
           students: 3,
           package: "7lpa"
@@ -104,7 +104,7 @@ type statisticsType = [
           students: 1,
           package: "6 LPA"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Mu Sigma",
           students: 1,
           package: "5 LPA"
@@ -114,7 +114,7 @@ type statisticsType = [
           students: 4,
           package: "3.36 LPA"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Detroit Engineered Products",
           students: 7,
           package: "3-4 LPA"
@@ -148,7 +148,7 @@ type statisticsType = [
           students: 1,
           package: "5LPA"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Shoba Constructions",
           students: 1,
           package: "13.5 LPA"
@@ -174,7 +174,7 @@ type statisticsType = [
           package: "-"
         },
         {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "BGSW",
           students: 26,
           package: "24-7LPA,2-5LPA"
@@ -195,7 +195,7 @@ type statisticsType = [
           students: 6,
           package: "4.7LPA"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Mu Sigma",
           students: 1,
           package: "5 LPA"
@@ -205,7 +205,7 @@ type statisticsType = [
           students: 4,
           package: "3.36 LPA"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Siliconch Systems(Intern)",
           students: 1,
           package: "5 LPA"
@@ -215,17 +215,17 @@ type statisticsType = [
           students: 2,
           package: "4 LPA"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Aquagreen",
           students: 1,
           package: "4.3 LPA"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "versa drives",
           students: 1,
           package: "4.5LPA"
         }, {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Incture",
           students: 1,
           package: "6.25 LPA"
@@ -239,31 +239,31 @@ type statisticsType = [
       branch: "B.E - ECE",
       companies: [
         {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Mistral solutions ",
           students: 6,
           package: "5LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "BGSW",
           students: 29,
           package: "24- 7 LPA & 5 - 5 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Viasat",
           students: 3,
           package: "14.03 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "AstraZeneca",
           students: 2,
           package: "5.75 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Smart IOPS",
           students: 2,
           package: "4.2 LPA"
@@ -281,43 +281,43 @@ type statisticsType = [
           package: 20000
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Ford",
           students: 1,
           package: "6LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Exterro",
           students: 3,
           package: "3.6 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Siliconch ",
           students: 3,
           package: "5 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "versa drives",
           students: 1,
           package: "4.5LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "LTI",
           students: 1,
           package: "4LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Inmovidu Technologies (INTERN) ",
           students: 1,
           package: "7LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Renault nissan",
           students: 1,
           package: "4.25LPA"
@@ -348,13 +348,13 @@ type statisticsType = [
           package: "20000 PM"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Ganitinc",
           students: 2,
           package: "6 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "MuSigma ",
           students: 5,
           package: "5 LPA"
@@ -372,13 +372,13 @@ type statisticsType = [
           package: "3.36LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Exterro ",
           students: 8,
           package: "4.2LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Qualitest ",
           students: 1,
           package: "4LPA"
@@ -396,7 +396,7 @@ type statisticsType = [
           package: "4LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "LTI ",
           students: 1,
           package: "4LPA"
@@ -417,7 +417,7 @@ type statisticsType = [
           package: "nan"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Mistral solutions ",
           students: 2,
           package: "5lpa"
@@ -429,13 +429,13 @@ type statisticsType = [
           package: "6.5lpa"
          },
          {
-          imgName: ".png",
+          imgName: "bosch.png",
           companyName: "Robert Bosch ",
           students: 14,
           package: "nan"
          },
          {
-          imgName: ".png",
+          imgName: "aspire.png",
           companyName: "Aspire systems",
           students: 8,
           package: "4.7lpa"
@@ -485,19 +485,19 @@ type statisticsType = [
           package: "20000 PM"
          },
          {
-          imgName: ".png",
+          imgName: "bosch.png",
           companyName: "Robert Bosch",
           students: 8,
           package: "7 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "bosch.png",
           companyName: "Robert Bosch",
           students: 15,
           package: "5 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Viasat",
           students: 1,
           package: "14 LPA"
@@ -509,7 +509,7 @@ type statisticsType = [
           package: "6.5 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Multicoreware ",
           students: 2,
           package: "7.2LPA"
@@ -521,61 +521,61 @@ type statisticsType = [
           package: "7.25 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "AstraZeneca ",
           students: 6,
           package: "5.75LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "FoodHub",
           students: 2,
           package: "7.5LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Ganit",
           students: 1,
           package: "6LPA"
          },
          {
-          imgName: ".png",
+          imgName: "aspire.png",
           companyName: "Aspire Systems ",
           students: 3,
           package: "4.5LPA"
          },
          {
-          imgName: ".png",
+          imgName: "squareshift.png",
           companyName: "Square shift ",
           students: "1 (Intern)",
           package: "7.5LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Exterro",
           students: 1,
           package: "4LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Edgeverve ",
           students: 1,
           package: "8LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Tekizma",
           students: 1,
           package: "7.5LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Qualitest ",
           students: 1,
           package: "4LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Incture",
           students: 2,
           package: "6.25 LPA"
@@ -613,19 +613,19 @@ type statisticsType = [
           package: "Intern"
          },
          {
-          imgName: ".png",
+          imgName: "bosch.png",
           companyName: "Robert Bosch",
           students: 5,
           package: "7 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "bosch.png",
           companyName: "Robert Bosch",
           students: 13,
           package: "5 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Viasat",
           students: 2,
           package: "14.03 LPA"
@@ -637,13 +637,13 @@ type statisticsType = [
           package: "6.5 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "AstraZeneca",
           students: 3,
           package: "5.75 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Bounteous (Lister Technologies)",
           students: 1,
           package: "10 LPA"
@@ -655,49 +655,49 @@ type statisticsType = [
           package: "5.5 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "aspire.png",
           companyName: "Aspire Systems",
           students: 1,
           package: "4.75 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "squareshift.png",
           companyName: "Square Shift",
           students: 1,
           package: "7.5 LPA (Intern)"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "CaratLane",
           students: 2,
           package: "7 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "MuSigma",
           students: 1,
           package: "5 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Ford",
           students: 2,
           package: "6 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Exterro",
           students: 4,
           package: "6 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Edgeverve",
           students: 2,
           package: "nan"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Tekizma",
           students: 1,
           package: "nan"
@@ -710,13 +710,13 @@ type statisticsType = [
       branch: "B.Tech - IBT",
       companies: [
         {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Zifo",
           students: 4,
           package: "4.76 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "MuSigma",
           students: 4,
           package: "5 LPA"
@@ -734,7 +734,7 @@ type statisticsType = [
           package: "3.36 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Qualitest ",
           students: 5,
           package: "4 LPA"
@@ -746,13 +746,13 @@ type statisticsType = [
           package: "4 LPA "
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "LTI",
           students: 2,
           package: "4 LPA"
          },
          {
-          imgName: ".png",
+          imgName: "t.png",
           companyName: "Inmovidu Technologies",
           students: 7,
           package: "7 LPA"
