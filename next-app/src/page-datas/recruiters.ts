@@ -3,4 +3,9 @@ type recruitersType = {
    imgName: string
 }
 
-export const recreuiters: recruitersType[] = []
+export const recreuiters: recruitersType[] = [
+   {
+      name:"sfd",
+      imgName:"sdf"
+   }
+]

@@ -41,7 +41,7 @@ export const placementDatas: placement[] = [
     {
         category: "Programming Branches",
         layoutMeta: {
-            backgroundImagesName: ["image1.jpg", "image2.jpg"],
+            backgroundImagesName: ["JoelSam.png", "image2.jpg"],
             colors: {
                 main: "#e4e4e4",
                 dark: "#000",
@@ -51,11 +51,11 @@ export const placementDatas: placement[] = [
         departmentMeta: [
             {
                 name: "Computer Science and Engineering",
-                syllabus: "link"
+                syllabus: "https://gct.ac.in/sites/gct.ac.in/files/UG%202018%20CSE.pdf"
             },
             {
                 name: "Information Technology",
-                syllabus: "link"
+                syllabus: "https://gct.ac.in/sites/gct.ac.in/files/2018%20UG%20IT%20Syllabus.pdf"
             }
         ],
         strength: 130,
@@ -180,15 +180,15 @@ export const placementDatas: placement[] = [
         layoutMeta: {
             backgroundImagesName: ["image1.jpg", "image2.jpg"],
             colors: {
-                main: "#e4e4e4",
-                dark: "#000",
-                light: "#fff"
+                main: "#5d4037",
+                dark: "#8d6e63",
+                light: "#bcaaa4"
             },
         },
         departmentMeta: [
             {
                 name: "Civil Engineering",
-                syllabus: "link"
+                syllabus: "https://gct.ac.in/sites/gct.ac.in/files/2018%20UG%20CIVIL%20Syllabus_1.pdf"
             },
             {
                 name: " ",
@@ -235,15 +235,15 @@ export const placementDatas: placement[] = [
         achievements: [
             {
                 header: "Sustainable Design Challenge, IIT Madras",
-                contents:[]
+                contents:["Finalists", "2019 Edition"]
             },
             {
                 header: "Chatra Vishwakarma Awards",
-                contents: []
+                contents: ["Participants", "2019 Edition"]
             },
             {
                 header: "Smart India Hackathon",
-                contents: []
+                contents: ["Participants", "2019 Edition"]
             }
         ], 
         percents: [
@@ -302,23 +302,23 @@ export const placementDatas: placement[] = [
         layoutMeta: {
             backgroundImagesName: ["image1.jpg", "image2.jpg"],
             colors: {
-                main: "#e4e4e4",
-                dark: "#000",
-                light: "#fff"
+                main: "#5d4037",
+                dark: "#8d6e63",
+                light: "#bcaaa4"
             },
         },
         departmentMeta: [
             {
                 name: "Electrical & Electronics Engineering",
-                syllabus: "link"
+                syllabus: "https://gct.ac.in/sites/gct.ac.in/files/2018%20UG%20EEE%20Syllabus_0.pdf"
             },
             {
                 name: "Electronics & Communication Engineering",
-                syllabus: "link"
+                syllabus: "https://gct.ac.in/sites/gct.ac.in/files/2018%20UG%20ECE%20Syllabus.pdf"
             },
             {
                 name: "Electronics & Instrumentation Engineering",
-                syllabus: "link"
+                syllabus: "https://gct.ac.in/sites/gct.ac.in/files/2018%20UG%20EIE%20Syllabus.pdf"
             }
         ],
         strength: 195,
@@ -366,23 +366,44 @@ export const placementDatas: placement[] = [
         achievements: [
             {
                 header: "Inno Champ 2020, Synopsys Hyderabad",
-                contents: []
+                contents: ["Finalists", "2020 Edition"]
             },
             {
                 header: "Business Project Contest, Siemens",
-                contents: []
+                contents: ["Runners", "2020 Edition"]
             },
             {
                 header: "Hackware, National Level Hackathon by Schneider Electric",
-                contents: []
+                contents: ["Finalist", "2020 Edition"]
             },
             {
                 header: "International Youth Convocation,Hawaii",
-                contents: []
+                contents: ["Selected for 2022 Edition"]
             },
             {
                 header: "SAEISS Tractor Design",
-                contents: []
+                contents: ["Team Asphalters",
+                        "Winners of 2018, 2019 Edition",
+                    	"Runners up 2020 Edition"
+                    ]
+            },
+            {
+                header: "SAE BAJA",
+                contents: [
+                   " Team Screwtenizers",
+                    	"Winner, 2018 Edition at IIT Ropar",
+                    	"Ranked 8, 2019 Edition at IIT Ropar",
+                    	"Ranked 21, 2020 Edition at USA, Arizona",
+                    	"Ranked 34, 2021 Edition at USA, Arizona"
+                    
+                    ]
+            },
+            {
+                header: "First Tech Challenge, Caterpillar INC",
+                contents: ["Team Sqweekers",
+                    "Runner Up, 2019 Edition"
+                    
+                    ]
             }
         ], 
         percents: [
@@ -441,19 +462,19 @@ export const placementDatas: placement[] = [
         layoutMeta: {
             backgroundImagesName: ["image1.jpg", "image2.jpg"],
             colors: {
-                main: "#e4e4e4",
-                dark: "#000",
-                light: "#fff"
+                main: "#00796b",
+                dark: "#26a69a",
+                light: "#80cbc4"
             },
         },
         departmentMeta: [
             {
                 name: "Mechanical Engineering",
-                syllabus: "link"
+                syllabus: "https://gct.ac.in/sites/gct.ac.in/files/UG-2018%20MECHANICAL%20ENGG.PDF"
             },
             {
                 name: "Production Engineering",
-                syllabus: "link"
+                syllabus: "https://gct.ac.in/sites/gct.ac.in/files/UG-2018%20PRODUCTION%20ENGG.PDF"
             }
         ],
         strength: 189,
@@ -500,19 +521,27 @@ export const placementDatas: placement[] = [
         achievements: [
             {
                 header: "SAEISS Tractor Design Team Asphalters",
-                contents: []
+                contents: [
+                    "• Winners of 2018, 2019 Edition",
+                    "• Runners up 2020 Edition"
+                    ]
             },
             {
                 header: "SAE BAJA Team Screwtenizers",
-                contents: []
+                contents: [	
+                        "• Winner, 2018 Edition at IIT Ropar",
+                        "• Ranked 8, 2019 Edition at IIT Ropar",
+                    	"• Ranked 21, 2020 Edition at USA, Arizona",
+                    	"• Ranked 34, 2021 Edition at USA, Arizona"
+                    ]
             },
             {
                 header: "First Tech Challenge, Caterpillar INC Team Sqweekers",
-                contents: []
+                contents: ["• Runner Up, 2019 Edition"]
             },
             {
                 header: "Smart India Hackathon Team Panamera",
-                contents: []
+                contents: ["• Winners, 2019 Edition "]
             }
         ], 
         percents: [
@@ -571,9 +600,9 @@ export const placementDatas: placement[] = [
         layoutMeta: {
             backgroundImagesName: ["image1.jpg", "image2.jpg"],
             colors: {
-                main: "#e4e4e4",
-                dark: "#000",
-                light: "#fff"
+                main: "#00796b",
+                dark: "#26a69a",
+                light: "#80cbc4"
             },
         },
         departmentMeta: [
@@ -583,7 +612,7 @@ export const placementDatas: placement[] = [
             },
             {
                 name: " ",
-                syllabus: "link"
+                syllabus: "https://gct.ac.in/sites/gct.ac.in/files/2018%20UG%20IBT%20Syllabus.pdf   "
             }
         ],
         strength: 105,
