@@ -7,8 +7,8 @@ import Sidebar from "../../@components/departments.sidebar";
 
 const Legend = ({color, text}: {color: string, text: string}) => {
   return <div className="flex w-full h-[3rem]">
-    <div className={`bg-black mr-4 w-8 h-8 rounded`}></div>
-    <p> {text} </p>
+    <div className={`bg-[${color}] mr-4 w-8 h-8 rounded`}></div>
+    <p className="uppercase"> {text} </p>
   </div>
 }
 
@@ -63,23 +63,25 @@ export default function department () {
           </div>) } 
         </div>
         <div className="rw-1 mx-4 grid grid-rows-2 grid-cols-2 gap-4">
-          {data?.statistics.map((stat, n) => <div className="flex flex-col h-[450px] justify-around items-center w-full" key={n}>
+          {data?.statistics.map((stat, n) => <div className="flex shadow-sm shadow-gray-300 p-4 rounded flex-col h-[450px] justify-around items-center w-full" key={n}>
             <div className="relative w-full h-[200px]">
-             {stat.meta.length > 0 && stat.meta.map((met, o) => <div className={`w-[100px] absolute border-2 border-black h-[100px] rounded-full origin-bottom left-1/2 bottom-0 ${o == 0 ? "circle1" : o == 1 ? "circle2" : "circle3"}`} key={o}>
+             {stat.meta.length > 0 && stat.meta.map((met, o) => <div className={`w-[100px] absolute text-white ${o === 0 ? "bg-[#eb6440] z-[3]" : o == 1 ? "bg-[#d6e4e5] z-[2] text-black" : "bg-[#497174] z-[1]"} h-[100px] rounded-full origin-bottom left-1/2 bottom-0 ${o == 0 ? "circle1" : o == 1 ? "circle2" : "circle3"}`} key={o}>
               <p className="text-center mt-1"> {met} </p> 
              </div>)} 
             </div>
-              <div className="w-4/5 h-[150px] mx-4">
+              <div className="w-full h-[200px] mx-4 bg-gray-200 p-4 rounded">
                 <div className="flex h-[100px] w-full justify-between items-center">
                   <div className="h-full rw-1">
                     <p className="text-lg font-extrabold mb-4"> Batch </p>
-                    <p className="text-4xl font-extrabold"> {stat.year} </p>
+                    <div className="h-[3rem] flex items-end">
+                      <p className="text-4xl font-extrabold"> {stat.year} </p>
+                    </div>
                   </div>
                   <div className="w-1 h-full bg-black"></div>
                   <div className="h-full rw-1 flex flex-col items-end">
                     <p className="text-lg font-extrabold mb-4"> Placed </p>
-                    <div className="flex h-[3rem] items-end">
-                       <p className="text-6xl font-bold"> {stat.placed} </p> 
+                    <div className="flex items-end h-[3rem]">
+                       <p className="text-4xl font-bold"> {stat.placed} </p> 
                        <p className="text-lg font-extrabold"> % </p>
                     </div>
                   </div>
@@ -89,9 +91,9 @@ export default function department () {
           </div>)}  
                 <div className="w-full h-full flex justify-center items-center">
                     <div className="w-1/2 h-[200px]">
-                      <Legend color={data?.layoutMeta.colors.dark as string} text={"intake"} />
-                      <Legend color={data?.layoutMeta.colors.dark as string} text={"intake"} />
-                      <Legend color={data?.layoutMeta.colors.dark as string} text={"intake"} />
+                      <Legend color={"#eb6440"} text={"intake"} />
+                      <Legend color={"#d6e4e5"} text={"eligible"} />
+                      <Legend color={"#497174"} text={"placed"} />
                     </div>
                 </div>  
         </div>
