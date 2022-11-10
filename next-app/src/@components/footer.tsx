@@ -71,8 +71,8 @@ export default function Footer () {
             {datas.map((data, i) => <div key={i} className="flex flex-col justify-start items-center w-1/3 mt-4 h-full  ">
                 <p className="text-md md:text-md font-bold text-center text-black-700 uppercase"> {data.header} </p>
                 <div className="flex flex-col items-start justify-start text-center mt-3 ">
-                    {data.buttons.map((button, j) => <div className="w-full my-2 p-2 hover:bg-gray-200">
-                        <Link className="text-black-500  my-2 hover:underline  p-2 w-100 " key={j} href={button.link}>
+                    {data.buttons.map((button, j) => <div key={j} className="w-full my-2 p-2 hover:bg-gray-200">
+                        <Link className="text-black-500  my-2 hover:underline  p-2 w-100 " href={button.link}>
                             {button.label}
                         </Link>
                     </div>

@@ -1,6 +1,7 @@
 import { Container } from '@mui/material'
+import AboutCarousel from '../@components/about.carousel'
+import Space from '../@styled-components/space'
 import clusterimg from '../images/Group 9133.png'
-import linkedin from './Vector.svg'
 
 export default function about () {
 
@@ -62,15 +63,14 @@ export default function about () {
       departname:"EEE",
       linkedin:"https://www.linkedin.com/in/uthra-priyadarshini-a816a7212"
     },
-    
-  
   ]
-
   return <div className="aboutpage">
-    <div className="aboutbanner"></div>
+    <div className="aboutbanner">
+      <AboutCarousel />
+    </div>
     <Container>
     <h1 className="aboutt1 text-center">Futuristic Features of this Platform</h1>
-    <div className="aboutinnercaro justify-center w-full">
+    <div className="aboutinnercaro justify-between w-full">
       {
         aboutinnercards.map((e) => {
           return <div className="aboutinnercard">
@@ -80,6 +80,7 @@ export default function about () {
         })
       }
     </div>
+    <Space />
     <div className="aboutimgrow">
       <div className='abtiner1'>
         <img src={clusterimg.src} alt="" />
@@ -94,14 +95,15 @@ export default function about () {
         devconner.map((dev) => {
           return  <div className="devcorcard">
           <img className='devcardimg' src="https://thumbs.dreamstime.com/b/portrait-handsome-smiling-young-man-folded-arms-smiling-joyful-cheerful-men-crossed-hands-isolated-studio-shot-172869765.jpg" alt="" />
-          <span className='devcardtitle'>{dev.name}</span>
+          <div style={{display:"flex", alignItems:"center", justifyContent:'center'}}>
+            <a href={dev.linkedin}> <img style={{marginRight:"10px", marginTop:"20px"}} className='linkedinimg' height={"20px"} width={"20px"} src={"https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png"} alt="" /></a>
+            <span className='devcardtitle'>{dev.name}</span>
+          </div>
           <span className='devcarddept'>{dev.departname}</span>
-          <a href={dev.linkedin}> <img className='linkedinimg' height={"20px"} width={"20px"} src={"https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png"} alt="" /></a>
+          
         </div>
         })
       }
-     
-      
     </div>
     </Container>
   </div>
