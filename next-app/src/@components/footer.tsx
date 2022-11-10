@@ -48,13 +48,28 @@ export default function Footer () {
                     link: ""
                 }
             ]
+        },
+        {
+            header: "Social Media",
+            buttons: [
+                {
+                    label: "Mobile",
+                    link: ""
+                }, {
+                    label: "Fax",
+                    link: ""
+                }, {
+                    label: "Email",
+                    link: ""
+                }
+            ]
         }
     ]
-    return <div className="px-12 bg-gray-100">
-    <div className="w-full flex flex-col-reverse md:flex-row-reverse justify-around">
+    return <div className="px-12 bg-gray-100 h-auto">
+    <div className="w-full flex flex-col-reverse md:flex-row-reverse justify-around h-50">
         <div className="flex flex-col sm:flex-row items-center justify-center w-full pb-12 col-2 col-span-2 md:w-2/3 p-4">
             {datas.map((data, i) => <div key={i} className="flex flex-col justify-start items-center w-1/3 mt-4 h-full  ">
-                <p className="text-lg md:text-xl font-bold text-center text-black-700"> {data.header} </p>
+                <p className="text-md md:text-md font-bold text-center text-black-700 uppercase"> {data.header} </p>
                 <div className="flex flex-col items-start justify-start text-center mt-3 ">
                     {data.buttons.map((button, j) => <div className="w-full my-2 p-2 hover:bg-gray-200">
                         <Link className="text-black-500  my-2 hover:underline  p-2 w-100 " key={j} href={button.link}>
