@@ -4,6 +4,7 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import {placementDatas} from "../../page-datas/placements"
 import {Container} from "@mui/material"
 import Sidebar from "../../@components/departments.sidebar";
+import flyImg from "../../images/Happy student-pana.svg"
 
 const Legend = ({color, text}: {color: string, text: string}) => {
   return <div className="flex w-full h-[3rem]">
@@ -23,11 +24,12 @@ export default function department () {
       <Sidebar />    
       <div className="w-full my-12 py-4 flex">
         <div className="w-[33%] px-4 flex flex-col">
-          <div className="m-4 mt-0 bg-gray-200 rounded-lg p-4 w-[calc(100%-2rem)] h-1/4 mb-12">
+          <div className="m-4 mt-0 bg-gray-200 rounded-lg p-4 w-[calc(100%-2rem)] mb-12">
             <div className="flex items-center w-full h-[3rem]">
               <p className="text-lg mr-4"> Students ready to fly </p>
               <p className="text-5xl font-extrabold"> {data?.strength} </p>
             </div>
+            <img src={flyImg.src} className="w-full object-contain"/>
           </div>
           <div className="grid grid-rows-2 grid-cols-2 gap-4 px-8 my-12">
             {data?.percents.map((percent, k) => <div key={k}>

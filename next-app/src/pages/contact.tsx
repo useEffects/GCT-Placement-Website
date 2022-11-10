@@ -4,10 +4,8 @@ import { teamDatas } from '../page-datas/placement-team'
 function contact() {
     console.log(teamDatas)
     return (
-    <Container className="flex flex-col justify-center align-center">
-        <div className='text-center'>
-            <p className='text-5xl font-bold text-black-700 mt-8'>Placement Team</p>
-        </div>
+    <Container className="flex flex-col justify-center align-center my-12">
+        <p className='text-3xl text-black-700 text-center mt-8'>Placement Team</p>
         <div className="flex mt-4 w-full p-4">
             <div className='w-1/4 p-3'>
                 <p className='text-2xl text-black-700 text-left mt-2'>Training and Placement Cell</p>
@@ -16,7 +14,7 @@ function contact() {
                 <p className="text-md text-gray-500 text-left mt-1">{teamDatas.staffEmail}</p>
                 <p className="text-md font-bold text-black-500 text-left mt-1">{teamDatas.staffPhone}</p>
             </div>
-            <div className='bg-gray-500 h-100 w-1'>
+            <div className='bg-gray-500 h-100 w-[1px]'>
 
             </div>
             <div className='w-3/4 p-3 '>
@@ -32,7 +30,7 @@ function contact() {
                                 category.branches.map(branch=>{
                                     return(
                                         <div className="w-5/12 p-2 rounded bg-gray-200 m-4 p-4">
-                                            <p className='text-md text-bold uppercase'>{branch.branchName} Representatives</p>
+                                            <p className='text-md text-bold font-bold uppercase'>{branch.branchName} Representatives</p>
                                             <div className={branch.students.length>1?'flex text-xs my-2':'flex text-sm my-2'}>
                                                 {branch.students.map(student=>{
                                                     return(
@@ -40,8 +38,6 @@ function contact() {
                                                             <p>{student.studentName}</p>
                                                             <p>{student.studentEmail}</p>
                                                             <p>{student.studentPhone}</p>
-
-
                                                     </div> 
                                                     )
                                                 })}
@@ -52,8 +48,7 @@ function contact() {
                                 })
                             }
                             </div>
-                        <div className='h-0.5 bg-gray-500 m-auto my-4'>
-
+                        <div className='h-[1px] bg-gray-500 m-auto my-4'>
                         </div>
                     </div>
                        )
