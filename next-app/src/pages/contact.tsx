@@ -1,4 +1,4 @@
-import { Container } from '@mui/system'
+import { Container } from '@mui/material'
 import React from 'react'
 import { teamDatas } from '../page-datas/placement-team' 
 function contact() {
