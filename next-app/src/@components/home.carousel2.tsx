@@ -1,6 +1,6 @@
 import company1 from '../images/Companylogo/2.png'
 import company2 from '../images/Companylogo/11.png'
-import company3 from '../images/Companylogo/22.png'
+import company3 from '../images/Companylogo/19.png'
 import company4 from '../images/Companylogo/39.png'
 import company5 from '../images/Companylogo/45.png'
 

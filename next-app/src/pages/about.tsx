@@ -56,6 +56,12 @@ export default function about () {
       departname:"IT",
       linkedin:"https://www.linkedin.com/in/krishnan-k-4416b7220"
     },
+    {
+      img:"",
+      name:"A. Uthra Priyadarshini",
+      departname:"EEE",
+      linkedin:"https://www.linkedin.com/in/uthra-priyadarshini-a816a7212"
+    },
     
   
   ]
