@@ -17,23 +17,23 @@ export default function department() {
   console.log(intake, eligible, placed)
   return <Container className="my-12 p-4">
     <Sidebar />
-    <div className="[&>*]:p-4 [&>*]:flex [&>*]:flex-col [&>*]:justify-between [&>*]:w-1/4 [&>*]:items-center [&>*]:rounded w-full flex justify-evenly items-center [&>*]:bg-primary-main my-12">
+    <div className="[&>*]:p-4 [&>*]:flex [&>*]:flex-col [&>*]:justify-between [&>*]:w-1/4 [&>*]:items-center [&>*]:rounded w-full flex justify-evenly items-center [&>*]:bg-gray-200 my-12">
       <div> 
         <div>
-          <p className="text-white text-xl font-bold my-8 text-center"> Total intake </p>
-          <p className="text-white font-extrabold text-5xl text-center"> {intake} </p>
+          <p className="text-black text-xl font-bold my-8 text-center"> Total intake </p>
+          <p className="text-black font-extrabold text-5xl text-center"> {intake} </p>
         </div>
       </div>
       <div> 
         <div>
-          <p className="text-white text-xl font-bold my-8 text-center"> Total students eligible</p>
-          <p className="text-white font-extrabold text-5xl text-center"> {eligible} </p>
+          <p className="text-black text-xl font-bold my-8 text-center"> Total students eligible</p>
+          <p className="text-black font-extrabold text-5xl text-center"> {eligible} </p>
         </div>
       </div>
       <div> 
         <div>
-          <p className="text-white text-xl font-bold my-8 text-center"> Total students placed </p>
-          <p className="text-white font-extrabold text-5xl text-center"> {placed} </p>
+          <p className="text-black text-xl font-bold my-8 text-center"> Total students placed </p>
+          <p className="text-black font-extrabold text-5xl text-center"> {placed} </p>
         </div>
       </div>
     </div>

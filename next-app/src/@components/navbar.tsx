@@ -27,7 +27,7 @@ export default function Navbar () {
                     </Link>
                 </div>
                 <div className="hidden md:flex [&>*]:mx-2 [&>*]:font-bold">
-                    <Button className="text-black"> about </Button>
+                    <Button className="text-black"> <Link href="/about"> about </Link> </Button>
                     <div>
                     <Button className="text-black font-bold" onClick={handleClick}> 
                         department 
@@ -42,8 +42,7 @@ export default function Navbar () {
                         </MenuItem>)}
                     </Menu>
                     </div>
-                    <Button className="text-black"> contact us </Button>
-                    <Button className="text-black"> snapshots </Button>
+                    <Button className="text-black"> <Link href="/contact"> contact us </Link> </Button>
                     <Button variant="contained" className="text-white bg-primary-main"> 
                     login  
                     <FontAwesomeIcon className="text-inherit ml-2" icon={faRightToBracket}/>

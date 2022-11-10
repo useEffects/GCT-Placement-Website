@@ -21,11 +21,11 @@ export default function Home() {
       "link": ""
     },
     {
-      "year": "2022",
+      "year": "2021",
       "link": ""
     },
     {
-      "year": "2022",
+      "year": "2020",
       "link": ""
     },
   ]
@@ -59,8 +59,8 @@ export default function Home() {
           <p className="text-lg text-center font-bold"> Dr.K.Ramesh </p>
           <p className="text-center"> Placement And Training Officer </p>
         </div>
-        <div className="flex-1 bg-white lg:p-8">
-          <p className="mt-12 bg-white">
+        <div className="flex-1 bg-white p-8 lg:p-8">
+          <p className="mt-12 bg-white text-left italic">
             I have immense pleasure and pride in introducing you to our bright, vibrant and  young graduates. Government College Technology remains committed to its already well established goodwill. It also  promises to continue to bring glory to this nation. The quality of education and exposure that the students acquire from GCT coupled with their soft skills, make them confident that they are adequately prepared to face the challenges of the corporate world. I am rest assured that our students will definitely contribute meaningfully in the growth and flourish of your organization and you will greatly benefit from their association with your company It is heartening to note that students have already begun the activities concerned With placements like soft skills development,mock group discussions and allied Exercises for the year 2022-23. Like a tree, one must find a place to grow and branch out. I hope hard work, sincerity and updated knowledge in their own domains, coupled with soft-skills will always pave way for our students to find the best places to grow. I also take this opportunity to thank all the industries for their unflinching support and patronage that GCT has been enjoying . I wish the students and organizations for an  impressive and fruitful placement stint in GCT for the year 2022-23.
           </p>
         </div>       
