@@ -21,7 +21,7 @@ type teamType = {
 }
 
 // PLEASE CHANGE IT TO CONST AFTER POPULATING
-export let teamDatas: teamType =
+export const teamDatas: teamType =
     {
         staffName:"Dr.K.Ranjith Kumar",
         staffEmail:"gctplacements@gct.ac.in",
