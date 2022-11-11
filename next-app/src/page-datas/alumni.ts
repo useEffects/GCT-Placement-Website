@@ -56,7 +56,7 @@ export const alumniDatas: alumniDataType[] = [
                 linkedin:""
             },
             {
-                imgName:"8.jpg",
+                imgName:"7.jpg",
                 Name:"Vidhya Krishnaswamy",
                 position:"Vice President",
                 company:"Capgemini India",
@@ -77,7 +77,7 @@ export const alumniDatas: alumniDataType[] = [
                 linkedin:""
             },
             {
-                imgName:"12.jpg",
+                imgName:"13.jpg",
                 Name:"Gayathri Radhakrishnan",
                 position:"Director Venture Capital – AI Fund",
                 company:"Micron Technology",
@@ -149,7 +149,7 @@ export const alumniDatas: alumniDataType[] = [
             {
                 imgName:"27.jpg",
                 Name:"Krishnan Ramanujam",
-                position:"Vice Chairperson Nasscom, and President and Head of Business & Technology Services.",
+                position:"Vice Chairperson Nasscom",
                 company:"Tata Consultancy Services.",
                 linkedin:""
             },
@@ -250,7 +250,7 @@ export const alumniDatas: alumniDataType[] = [
                     linkedin:""
                 },  
                 {
-                    imgName:"35.jpg ",
+                    imgName:"35.jpg",
                     Name:"BooshanRangachari",
                     position:"Founder",
                     company:"Finzly",
