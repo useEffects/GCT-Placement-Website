@@ -10,7 +10,7 @@ export const newsData: newsType[] = [
         date:"12-Nov-2019",
         header:"Five college in western region selected under TEQIP",
         link:"https://www.thehindu.com/news/cities/Coimbatore/five-colleges-in-western-region-selected-under-teqip/article29948113.ece/amp/",
-        newsLogoImgName:"TheHindu.jpg "
+        newsLogoImgName:"TheHindu.jpg"
     },
     {
         date:"5-Aug-2019",

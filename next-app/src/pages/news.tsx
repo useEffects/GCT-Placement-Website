@@ -14,7 +14,7 @@ export default function news () {
         <p className="text-gray-500 uppercase text-lg"> {data.date} </p>
         <p className="text-lg text-black"> {data.header} </p>
         <a target="_blank" className="text-blue-500 underline" href={data.link}> see more </a>
-        <img src={require(`../images/newsimg/${data.newsLogoImgName}`).default.src} className="w-full h-[50px] bg-gray-100"/>
+        <img src={require(`../images/newsimg/${data.newsLogoImgName}`).default.src} className="object-contain h-[50px] ml-auto mr-0"/>
      </div>)} 
     </Container> 
     <Space />

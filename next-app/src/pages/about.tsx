@@ -36,7 +36,7 @@ export default function about () {
       img:Joel.src,
       name:"Joel Samuel Raj",
       departname:"IT",
-      linkedin:""
+      linkedin:"https://www.linkedin.com/in/joel-samuel-369355206"
     },
     {
       img:"",
@@ -75,17 +75,17 @@ export default function about () {
       linkedin:"https://www.linkedin.com/in/krishnan-k-4416b7220"
     },
     {
+      img:Amruth.src,
+      name:"M. Amruth Kiran",
+      departname:"IT",
+      linkedin:"https://www.linkedin.com/in/uthra-priyadarshini-a816a7212"
+    },
+    {
       img:uthra.src,
       name:"A. Uthra Priyadarshini",
       departname:"EEE",
       linkedin:"https://www.linkedin.com/in/uthra-priyadarshini-a816a7212"
     },
-    {
-      img:Amruth.src,
-      name:"A. Uthra Priyadarshini",
-      departname:"EEE",
-      linkedin:"https://www.linkedin.com/in/uthra-priyadarshini-a816a7212"
-    }
   ]
   return <div className="aboutpage">
     <div className="aboutbanner">
@@ -117,7 +117,7 @@ export default function about () {
       {
         devconner.map((dev) => {
           return  <div className="devcorcard">
-          <img className='devcardimg' src="https://thumbs.dreamstime.com/b/portrait-handsome-smiling-young-man-folded-arms-smiling-joyful-cheerful-men-crossed-hands-isolated-studio-shot-172869765.jpg" alt="" />
+          <img className='devcardimg' src={dev.img} alt="" />
           <div style={{display:"flex", alignItems:"center", justifyContent:'center'}}>
             <a href={dev.linkedin}> <img style={{marginRight:"10px", marginTop:"20px"}} className='linkedinimg' height={"20px"} width={"20px"} src={"https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png"} alt="" /></a>
             <span className='devcardtitle'>{dev.name}</span>
