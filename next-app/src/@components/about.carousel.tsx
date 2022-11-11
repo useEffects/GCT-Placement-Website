@@ -36,7 +36,7 @@ function AboutCarousel() {
   const contents = [
     {
       header: "About us",
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n"
+      content: "The right skills and attitudes are nurtured through focused mentoring sessions that enable our students to develop the right mindset. This broadens their academic and professional horizons and transforms them into a performer in all the aspects of life."
     }, {
       header: "",
       content: ""
