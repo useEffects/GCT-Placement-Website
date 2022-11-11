@@ -4,6 +4,7 @@ import Space from '../@styled-components/space'
 import clusterimg from '../images/Group 9133.png'
 import Guru from '../images/devs/Gururagavendra.jpg'
 import Joel from '../images/devs/Joel.jpeg'
+import Jeremy from "../images/devs/2022-11-11_12-15.png"
 import Saran from '../images/devs/Saran.jpeg'
 import Sham from '../images/devs/Shameer.jpeg'
 import uthra from '../images/devs/Uthra.jpeg'
@@ -39,7 +40,7 @@ export default function about () {
       linkedin:"https://www.linkedin.com/in/joel-samuel-369355206"
     },
     {
-      img:"",
+      img:Jeremy.src,
       name:"Jeremy Asirwaad",
       departname:"IT",
       linkedin:"https://www.linkedin.com/in/jeremy-asirwaad-182b93192"
@@ -78,7 +79,7 @@ export default function about () {
       img:Amruth.src,
       name:"M. Amruth Kiran",
       departname:"IT",
-      linkedin:"https://www.linkedin.com/in/uthra-priyadarshini-a816a7212"
+      linkedin:"https://www.linkedin.com/in/amruth-kiran-56b41117b"
     },
     {
       img:uthra.src,
@@ -119,7 +120,7 @@ export default function about () {
           return  <div className="devcorcard">
           <img className='devcardimg' src={dev.img} alt="" />
           <div style={{display:"flex", alignItems:"center", justifyContent:'center'}}>
-            <a href={dev.linkedin}> <img style={{marginRight:"10px", marginTop:"20px"}} className='linkedinimg' height={"20px"} width={"20px"} src={"https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png"} alt="" /></a>
+            <a target="_blank" href={dev.linkedin}> <img style={{marginRight:"10px", marginTop:"20px"}} className='linkedinimg' height={"20px"} width={"20px"} src={"https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png"} alt="" /></a>
             <span className='devcardtitle'>{dev.name}</span>
           </div>
           <span className='devcarddept'>{dev.departname}</span>
