@@ -65,7 +65,7 @@ export default function Footer () {
             ]
         }
     ]
-    return <div className="px-12 bg-gray-100 h-auto">
+    return <div className="px-12 bg-gray-100 h-auto pt-12">
     <div className="w-full flex flex-col-reverse md:flex-row-reverse justify-around h-50">
         <div className="flex flex-col sm:flex-row items-center justify-center w-full pb-12 col-2 col-span-2 md:w-2/3 p-4">
             {datas.map((data, i) => <div key={i} className="flex flex-col justify-start items-center w-1/3 mt-4 h-full  ">

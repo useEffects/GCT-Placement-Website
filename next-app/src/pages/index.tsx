@@ -7,11 +7,10 @@ import Carousel2 from "../@components/home.carousel2";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendar } from '@fortawesome/free-solid-svg-icons'
 import Carousel3 from "../@components/home.carousel3";
-import Carousel4 from "../@components/home.carousel4";
-import gctimage from "../images/gctmainbuild.png"
+import gctimage from "../images/IMG-20200823-WA0004.jpg"
 import ramesh from "../images/RameshSir.png"
 import DataRepImg from "../images/DataReportPana.png"
-
+import bgImg from "../images/org_d039b1c05827a71b_1615168176000-01.jpeg"
 
 export default function Home() {
 
@@ -31,18 +30,39 @@ export default function Home() {
   ]
 
   return (<>
-    <Container className="flex flex-col items-center">
-      <div className="rw-1 min-h-[calc(100vh-8rem)] md:h-[calc(100vh-8rem)] flex flex-col items-center bg-gray-200 rounded-2xl py-12 px-4 my-4 md:grid grid-rows-2 grid-cols-2 gap-4 justify-center md:px-12">
-          <div className="flex justify-center items-center row-span-2">
+    {/* <div className="h-[calc(100vh-3.5rem)] w-full bg-black relative">
+      <img src={bgImg.src} className="w-full h-full absolute top-0 bottom-0 left-0 right-0"/>
+      <div className="w-full h-2/3 absolute bg-black bottom-0 opacity-70"></div>
+      <Container className="flex justify-between w-full h-full relative z-10">
+        <div className="w-[66%] h-full">
+          <div className="w-full h-1/2 bg-black mt-[12%]">
+
+          </div> 
+          <div className="mt-12 w-full h-[calc(38%-5rem)] bg-black">
+
+          </div>
+        </div>
+        <div className="w-[33%] bg-black h-full">
+
+        </div>
+      </Container>
+    </div> */}
+<div className="w-full min-h-[calc(100vh-8rem)] overflow-clip md:h-[calc(100vh-8rem)] flex flex-col md:flex-row bg-gray-200 py-12 px-4 md:p-0">
+          <div className="flex flex-col w-full h-full justify-center items-center">
               <div className="-rotate-[0deg] font-extrabold text-2xl md:text-5xl mt-2">
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-1/4 before:bg-white before:z-[-1]">Placement And</p>
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-2 before:bg-blue-100 before:z-[-1] w-auto">Training</p>
                 <p className="mb-12">Cell</p>
               </div>
+          <p className="text-md w-1/2 italic text-justify md:text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
           </div>
-          <img src={gctimage.src} className="object-contain h-[300px] md:h-full row-start-1 col-start-2 row-span-4 w-full"/>
-          <p className="text-md font-bold italic text-center md:text-lg">A carefully curated space for sharing all placement related activities in order to motivate and facilitate students to train meticulously and achieve great results.</p>
-        </div>
+         <div className="flex justify-end w-full bg-black h-full row-start-1 col-start-2 row-span-2">
+          <img src={gctimage.src} className="object-full opacity-30 h-[300px] md:h-full w-full"/>
+          </div>
+          </div>
+    <Container className="flex flex-col items-center">
+
       <Space />
       <Header text={"placement statistics 2022"} />
       <Carousel1 />
@@ -50,7 +70,6 @@ export default function Home() {
       <Header text={"our major recruiters"} />
       <Carousel2 />
       <Space />
-
       <div className="lg:p-16 shadow-lg rounded-xl bg-white">
       <Header text={"from placement officer's desk"}/>
       <Flora flower={["top-0 right-0 translate-x-1/3 h-[150px] bg-transparent"]} className="w-full flex flex-col justify-center items-center lg:flex-row bg-white">
@@ -67,8 +86,8 @@ export default function Home() {
       </Flora>
       </div>
       <Space />
-      <Flora className="flex justify-center items-center" flower={["top-0 left-0 -translate-x-1/2 h-[200px]"]}>
-        <div className="bg-gray-100 rounded-3xl rw-2 my-12 py-12 px-4">
+      <Flora className="flex justify-center items-center w-full" flower={["top-0 left-0 -translate-x-1/2 h-[200px]"]}>
+        <div className="bg-gray-100 rounded-3xl w-full my-12 py-12 px-4">
           <Header text={"placement records"}/>
           <p className="my-12 text-center bg-transparent">We set those impossible records and broke them into million pieces by achieving greater success.
 -An Assortment of our Achievements</p>
@@ -93,11 +112,11 @@ export default function Home() {
         <Carousel3 />
       </div>
       <Space />
-      <div className="w-full">
+      { /* <div className="w-full">
         <Header text={"peculiar peeks"} />
         <p className="text-center">A glimpse of all the internal activities of each department.</p>
         <Carousel4 />
-      </div>
+      </div> */}
       <Space />
     </Container>
   </>)

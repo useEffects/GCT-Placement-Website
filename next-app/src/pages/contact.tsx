@@ -20,7 +20,6 @@ function contact() {
             <div className='w-3/4 p-3 '>
                 <div className="w-full">
                     <p className='text-2xl text-black-700 text-left mt-2 font-bold'>Student Team</p>
-                    <p className="text-md text-gray-500 text-left mt-1">Placement and Training Officer </p>
                     {teamDatas.studentsTeams.map(category=>{
                        return(
                         <div className='p-3 mt-3 w-full'>
