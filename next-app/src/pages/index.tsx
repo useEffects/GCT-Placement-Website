@@ -54,7 +54,7 @@ export default function Home() {
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-2 before:bg-blue-100 before:z-[-1] w-auto">Training</p>
                 <p className="mb-12">Cell</p>
               </div>
-          <p className="text-md w-1/2 mx-auto italic text-justify md:text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p className="text-md w-1/2 mx-auto italic text-justify md:text-2xl">A carefully curated space for sharing all placement related activities in order to motivate and facilitate students to train meticulously and achieve great results.</p>
 
           </div>
          <div className="flex justify-end w-full h-full row-start-1 col-start-2 row-span-2 bg-black">
@@ -89,7 +89,7 @@ export default function Home() {
       <Flora className="flex justify-center items-center w-full" flower={["top-0 left-0 -translate-x-1/2 h-[200px]"]}>
         <div className="bg-gray-100 rounded-3xl w-full my-12 py-12 px-4">
           <Header text={"placement records"}/>
-          <p className="my-12 text-center bg-transparent">We set those impossible records and broke them into million pieces by achieving greater success.
+          <p className="my-12 text-center bg-transparent">We set those impossible records and broke them into a million pieces by achieving great success.
 -An Assortment of our Achievements</p>
           <div className="lg:flex justify-between items-center">
               <img src={DataRepImg.src} className="object-contain my-12 h-[300px] bg-white rounded-lg shadow-lg w-full md:w-[calc(50%-1rem)]"/>
@@ -108,7 +108,7 @@ export default function Home() {
       <Space />
       <div className="bg-gray-100 rounded-3xl py-12 px-4 flex flex-col items-center w-full"> 
         <Header text={"insights of students"}/>
-        <p className="text-center m-4">Nothin is more valuable than sharing our thoughts and experience in this world, and our world began at GCT.</p>
+        <p className="text-center m-4">Nothing is more valuable than sharing our thoughts and experience in this world, and our world began at GCT.</p>
         <Carousel3 />
       </div>
       <Space />
