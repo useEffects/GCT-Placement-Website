@@ -16,15 +16,16 @@ function alumni() {
             <div className="w-full mt-3">
                 {alumniDatas.map(alumniCate=>{
                     return(
-                        <div className="w-full flex flex-wrap justify-between">
+                        <div className="w-full flex flex-wrap mt-3">
                             <div className='w-1/3 flex justify-center items-center p-3 mt-2'>
                                 <p className='text-3xl text-gray-500 font-bold text-center'>{alumniCate.category}</p>
                             </div>
                             {alumniCate.people.map(people=>{
                                 return(
-                                    <div className='w-1/3 flex align-center p-3 bg-gray-100 rounded-3xl mt-2'>
-                                        <div className='w-1/3'>
-                                            <img src={alumniImages.src} alt="" />
+                                    <div className='w-1/3 p-3'>
+                                        <div className='flex align-center p-3 bg-gray-200 rounded-3xl mt-2'>
+                                        <div className='w-1/3 rounded'>
+                                            <img src={require("../images/alumniimg/"+people.imgName).default.src} alt={people.Name} className='w-full rounded-2xl h-[100px]'/>
                                         </div>
                                         <div className='flex flex-col flex-wrap w-2/3 px-2'>
                                             <p className='text-md font-bold text-left mt-2'>{people.Name}</p>
@@ -32,6 +33,7 @@ function alumni() {
                                             <p className='text-sm text-gray-700 text-left mt-2'>{people.company}</p>
                                         </div>
                                         
+                                    </div>
                                     </div>
                                 )
                             })}

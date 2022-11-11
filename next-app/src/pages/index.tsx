@@ -10,7 +10,7 @@ import Carousel3 from "../@components/home.carousel3";
 import gctimage from "../images/IMG-20200823-WA0004.jpg"
 import ramesh from "../images/RameshSir.png"
 import DataRepImg from "../images/DataReportPana.png"
-import bgImg from "../images/org_d039b1c05827a71b_1615168176000-01.jpeg"
+//import bgImg from "../images/org_d039b1c05827a71b_1615168176000-01.jpeg"
 
 export default function Home() {
 
