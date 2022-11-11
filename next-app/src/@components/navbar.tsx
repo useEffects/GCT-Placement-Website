@@ -23,7 +23,7 @@ export default function Navbar () {
             link: "news"
         }, {
             label: "alumni",
-            link: "alumni"
+            link: "/alumni"
         }
     ]
 
