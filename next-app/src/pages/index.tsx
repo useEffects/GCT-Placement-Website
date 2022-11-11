@@ -48,17 +48,17 @@ export default function Home() {
       </Container>
     </div> */}
 <div className="w-full min-h-[calc(100vh-8rem)] overflow-clip md:h-[calc(100vh-8rem)] flex flex-col md:flex-row bg-gray-200 py-12 px-4 md:p-0">
-          <div className="flex flex-col w-full h-full justify-center items-center">
-              <div className="-rotate-[0deg] font-extrabold text-2xl md:text-5xl mt-2">
+          <div className="flex flex-col w-full h-full justify-center items-start">
+              <div className="-rotate-[0deg] font-extrabold text-2xl md:text-5xl mt-2 ml-[25%] mr-auto">
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-1/4 before:bg-white before:z-[-1]">Placement And</p>
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-2 before:bg-blue-100 before:z-[-1] w-auto">Training</p>
                 <p className="mb-12">Cell</p>
               </div>
-          <p className="text-md w-1/2 italic text-justify md:text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p className="text-md w-1/2 mx-auto italic text-justify md:text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
           </div>
-         <div className="flex justify-end w-full bg-black h-full row-start-1 col-start-2 row-span-2">
-          <img src={gctimage.src} className="object-full opacity-30 h-[300px] md:h-full w-full"/>
+         <div className="flex justify-end w-full h-full row-start-1 col-start-2 row-span-2">
+          <img src={gctimage.src} className="object-full h-[300px] md:h-full w-full"/>
           </div>
           </div>
     <Container className="flex flex-col items-center">
