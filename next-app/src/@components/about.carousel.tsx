@@ -38,11 +38,11 @@ function AboutCarousel() {
       header: "About us",
       content: "The right skills and attitudes are nurtured through focused mentoring sessions that enable our students to develop the right mindset. This broadens their academic and professional horizons and transforms them into a performer in all the aspects of life."
     }, {
-      header: "",
-      content: ""
+      header: "Moto",
+      content: "Our main aim is to make sure that the students of this college find it extremely effortless to get placed in the company of their dreams and receive the sufficient training to do the same."
     }, {
-      header: "",
-      content: ""
+      header: "Success Story",
+      content: "The Placement and Training Cell has always been eminently supportive and has made sure everyone attains what they aim for. The fact that this college has thousands of students who have managed to achieve their goals speaks loudly about what we have managed to accomplish."
     }, {
       header: "",
       content: ""
