@@ -2,6 +2,17 @@ import { Container } from '@mui/material'
 import AboutCarousel from '../@components/about.carousel'
 import Space from '../@styled-components/space'
 import clusterimg from '../images/Group 9133.png'
+import Guru from '../images/devs/Gururagavendra.jpg'
+import Joel from '../images/devs/Joel.jpeg'
+import Saran from '../images/devs/Saran.jpeg'
+import Sham from '../images/devs/Shameer.jpeg'
+import uthra from '../images/devs/Uthra.jpeg'
+import Krish from '../images/devs/Krishnan.jpeg'
+import Amruth from '../images/devs/Amruth.jpg'
+import Ajmal from '../images/devs/Ajmal.jpeg'
+
+
+
 
 export default function about () {
 
@@ -22,10 +33,10 @@ export default function about () {
 
   const devconner = [
     {
-      img:"",
+      img:Joel.src,
       name:"Joel Samuel Raj",
       departname:"IT",
-      linkedin:"h"
+      linkedin:""
     },
     {
       img:"",
@@ -34,35 +45,47 @@ export default function about () {
       linkedin:"https://www.linkedin.com/in/jeremy-asirwaad-182b93192"
     },
     {
-      img:"",
+      img:Guru.src,
+      name:"Gururagavendra V",
+      departname:"ECE",
+      linkedin:"https://www.linkedin.com/in/gururagavendra"
+    },
+    {
+      img:Ajmal.src,
       name:"Ajmal Fariz",
       departname:"IT",
       linkedin:"https://www.linkedin.com/in/ajmal-fariz-b85443224"
     },
     {
-      img:"",
+      img:Saran.src,
       name:"Saran Pradeep",
       departname:"IT",
       linkedin:"https://www.linkedin.com/in/saran-pradeep-j-818a911ba/"
     },
     {
-      img:"",
+      img:Sham.src,
       name:"Shameer",
       departname:"IT",
       linkedin:"https://www.linkedin.com/in/shameer-k-90457b186"
     },
     {
-      img:"",
+      img:Krish.src,
       name:"Krishanan",
       departname:"IT",
       linkedin:"https://www.linkedin.com/in/krishnan-k-4416b7220"
     },
     {
-      img:"",
+      img:uthra.src,
       name:"A. Uthra Priyadarshini",
       departname:"EEE",
       linkedin:"https://www.linkedin.com/in/uthra-priyadarshini-a816a7212"
     },
+    {
+      img:Amruth.src,
+      name:"A. Uthra Priyadarshini",
+      departname:"EEE",
+      linkedin:"https://www.linkedin.com/in/uthra-priyadarshini-a816a7212"
+    }
   ]
   return <div className="aboutpage">
     <div className="aboutbanner">
