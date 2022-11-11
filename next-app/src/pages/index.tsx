@@ -10,7 +10,7 @@ import Carousel3 from "../@components/home.carousel3";
 import gctimage from "../images/IMG-20200823-WA0004.jpg"
 import ramesh from "../images/RameshSir.png"
 import DataRepImg from "../images/DataReportPana.png"
-import bgImg from "../images/org_d039b1c05827a71b_1615168176000-01.jpeg"
+//import bgImg from "../images/org_d039b1c05827a71b_1615168176000-01.jpeg"
 
 export default function Home() {
 
@@ -47,18 +47,18 @@ export default function Home() {
         </div>
       </Container>
     </div> */}
-<div className="w-full min-h-[calc(100vh-8rem)] overflow-clip md:h-[calc(100vh-8rem)] flex flex-col md:flex-row bg-gray-200 py-12 px-4 md:p-0">
-          <div className="flex flex-col w-full h-full justify-center items-center">
-              <div className="-rotate-[0deg] font-extrabold text-2xl md:text-5xl mt-2">
+<div className="w-full min-h-[calc(100vh-8rem)] overflow-clip flex flex-col justify-center items-center md:flex-row bg-gray-200 py-12 px-4 md:p-0">
+          <div className="flex flex-col w-full h-full justify-center items-start">
+              <div className="-rotate-[0deg] font-extrabold text-2xl md:text-5xl mt-2 ml-[25%] mr-auto">
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-1/4 before:bg-white before:z-[-1]">Placement And</p>
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-2 before:bg-blue-100 before:z-[-1] w-auto">Training</p>
                 <p className="mb-12">Cell</p>
               </div>
-          <p className="text-md w-1/2 italic text-justify md:text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p className="text-md w-1/2 mx-auto italic text-justify md:text-2xl">A carefully curated space for sharing all placement related activities in order to motivate and facilitate students to train meticulously and achieve great results.</p>
 
           </div>
-         <div className="flex justify-end w-full bg-black h-full row-start-1 col-start-2 row-span-2">
-          <img src={gctimage.src} className="object-full opacity-30 h-[300px] md:h-full w-full"/>
+         <div className="flex justify-end w-full h-full row-start-1 col-start-2 row-span-2 bg-black">
+          <img src={gctimage.src} className="object-full h-[300px] md:h-full w-full opacity-70"/>
           </div>
           </div>
     <Container className="flex flex-col items-center">
@@ -89,7 +89,7 @@ export default function Home() {
       <Flora className="flex justify-center items-center w-full" flower={["top-0 left-0 -translate-x-1/2 h-[200px]"]}>
         <div className="bg-gray-100 rounded-3xl w-full my-12 py-12 px-4">
           <Header text={"placement records"}/>
-          <p className="my-12 text-center bg-transparent">We set those impossible records and broke them into million pieces by achieving greater success.
+          <p className="my-12 text-center bg-transparent">We set those impossible records and broke them into a million pieces by achieving great success.
 -An Assortment of our Achievements</p>
           <div className="lg:flex justify-between items-center">
               <img src={DataRepImg.src} className="object-contain my-12 h-[300px] bg-white rounded-lg shadow-lg w-full md:w-[calc(50%-1rem)]"/>
@@ -108,7 +108,7 @@ export default function Home() {
       <Space />
       <div className="bg-gray-100 rounded-3xl py-12 px-4 flex flex-col items-center w-full"> 
         <Header text={"insights of students"}/>
-        <p className="text-center m-4">Nothin is more valuable than sharing our thoughts and experience in this world, and our world began at GCT.</p>
+        <p className="text-center m-4">Nothing is more valuable than sharing our thoughts and experience in this world, and our world began at GCT.</p>
         <Carousel3 />
       </div>
       <Space />

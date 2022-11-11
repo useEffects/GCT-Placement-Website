@@ -84,7 +84,7 @@ export default function Footer () {
             <img src={Gctlogo.src} className="w-12 md:20 h:24 object-contain"/>
             <div className="mt-2 m-auto">
                 <p className="my-4 md:text-lg text-left font-bold uppercase"> Training & Placement Cell </p>
-                <p className="my-4 text-gray-600">A carefully curated space for sharing all placement related activities in order to motivate and facilitate students to train meticulously and achieve great results.</p>
+                <p className="my-4 text-gray-600">A place to hone all the necessary skills needed to get placed.</p>
                 <p className="my-4 text-gray-600 text-left font-bold uppercase"> 2022 GCT.<br></br>  All rights <br className="md:hidden"/> reserved. </p>
             </div>
         </div>
