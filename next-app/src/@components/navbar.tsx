@@ -14,16 +14,16 @@ export default function Navbar () {
             link: "/about"
         }, {
             label: "contact",
-            link: "contact"
+            link: "/contact"
         }, {
             label: "recruiters",
-            link: "recruiters"
+            link: "/recruiters"
         }, {
             label: "news",
-            link: "news"
+            link: "/news"
         }, {
             label: "alumni",
-            link: "alumni"
+            link: "/alumni"
         }
     ]
 

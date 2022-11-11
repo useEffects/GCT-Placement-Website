@@ -82,7 +82,7 @@ export default function department () {
                   <div className="h-full rw-1 flex flex-col items-end">
                     <p className="text-lg font-extrabold mb-4"> Placed </p>
                     <div className="flex items-end h-[3rem]">
-                       <p className="text-4xl font-bold"> {Math.round(stat.meta[0] / stat.meta[2]) * 100} </p> 
+                       <p className="text-4xl font-bold"> {stat.placed} </p> 
                        <p className="text-lg font-extrabold"> % </p>
                     </div>
                   </div>
