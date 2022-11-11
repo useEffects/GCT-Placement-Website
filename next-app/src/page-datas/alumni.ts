@@ -56,7 +56,7 @@ export const alumniDatas: alumniDataType[] = [
                 linkedin:""
             },
             {
-                imgName:"7.jpg",
+                imgName:"8.jpg",
                 Name:"Vidhya Krishnaswamy",
                 position:"Vice President",
                 company:"Capgemini India",
