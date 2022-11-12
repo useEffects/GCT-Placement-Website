@@ -2,7 +2,7 @@ import company2 from '../images/Companylogo/45.png'
 import company3 from '../images/Companylogo/17.png'
 import company4 from '../images/Companylogo/52.png'
 import i1 from '../images/Nithish.jpeg'
-import i2 from '../images/Rathina.jpeg'
+import i2 from '../images/Rathina.jpg'
 import i3 from '../images/Vishal.jpeg'
 // import Fordimg from "../images/logos/FordLogo.png"
 // import Aspireimg from "../images/logos/AspireLogo.png"
