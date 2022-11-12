@@ -38,12 +38,12 @@ export const statisticsDatas: statisticsType[] = [
         students: 6,
         package: "3.36 Lpa"
       }, {
-        imgName: "exterro.png",
+        imgName: "exterro.jpg",
         companyName: "Exterro",
         students: 5,
         package: "3.25 lpa"
       }, {
-        imgName: "edgeverve.png",
+        imgName: "edgeverve.jpg",
         companyName: "Edgeverve ",
         students: 1,
         package: "8 Lpa"
@@ -58,7 +58,7 @@ export const statisticsDatas: statisticsType[] = [
         students: 1,
         package: "7.5lpa"
       }, {
-        imgName: "cts.png",
+        imgName: "cts.jpg",
         companyName: "CTS",
         students: 7,
         package: "4lpa"
@@ -68,7 +68,7 @@ export const statisticsDatas: statisticsType[] = [
         students: 2,
         package: "4.25lpa"
       }, {
-        imgName: "landt.png",
+        imgName: "landt.jpg",
         companyName: "L&T Infotech",
         students: 2,
         package: "4.6lpa"
@@ -78,7 +78,7 @@ export const statisticsDatas: statisticsType[] = [
         students: 6,
         package: "13.53 lpa "
       }, {
-        imgName: "inmovidu.png",
+        imgName: "inmovidu.jpg",
         companyName: "Inmovidu Technologies (INTERN) ",
         students: 3,
         package: "7lpa"
@@ -129,7 +129,7 @@ export const statisticsDatas: statisticsType[] = [
         students: 7,
         package: "3-4 LPA"
       }, {
-        imgName: "exterro.png",
+        imgName: "exterro.jpg",
         companyName: "Exterro",
         students: 1,
         package: "nan"
@@ -149,7 +149,7 @@ export const statisticsDatas: statisticsType[] = [
         students: 2,
         package: "4.5 LPA"
       }, {
-        imgName: "landt.png",
+        imgName: "landt.jpg",
         companyName: "L&T infotech",
         students: 2,
         package: "4-6 LPA"
@@ -185,7 +185,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "-"
       },
       {
-        imgName: "boschglobal.png",
+        imgName: "boschglobal.jpg",
         companyName: "BGSW",
         students: 26,
         package: "24-7LPA,2-5LPA"
@@ -216,7 +216,7 @@ export const statisticsDatas: statisticsType[] = [
         students: 4,
         package: "3.36 LPA"
       }, {
-        imgName: "silicon.png",
+        imgName: "silicon.jpg",
         companyName: "Siliconch Systems(Intern)",
         students: 1,
         package: "5 LPA"
@@ -231,12 +231,12 @@ export const statisticsDatas: statisticsType[] = [
         students: 1,
         package: "4.3 LPA"
       }, {
-        imgName: "versadrives.png",
+        imgName: "versadrives.jpg",
         companyName: "versa drives",
         students: 1,
         package: "4.5LPA"
       }, {
-        imgName: "incture.png",
+        imgName: "incture.jpg",
         companyName: "Incture",
         students: 1,
         package: "6.25 LPA"
@@ -250,19 +250,19 @@ export const statisticsDatas: statisticsType[] = [
     branch: "B.E - ECE",
     companies: [
       {
-        imgName: "mistral.png",
+        imgName: "mistral.jpg",
         companyName: "Mistral solutions ",
         students: 6,
         package: "5LPA"
        },
        {
-        imgName: "boschglobal.png",
+        imgName: "boschglobal.jpg",
         companyName: "BGSW",
         students: 29,
         package: "24- 7 LPA & 5 - 5 LPA"
        },
        {
-        imgName: "viasat.png",
+        imgName: "viasat.jpg",
         companyName: "Viasat",
         students: 3,
         package: "14.03 LPA"
@@ -274,7 +274,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "5.75 LPA"
        },
        {
-        imgName: "smartiops.png",
+        imgName: "smartiops.jpg",
         companyName: "Smart IOPS",
         students: 2,
         package: "4.2 LPA"
@@ -292,43 +292,43 @@ export const statisticsDatas: statisticsType[] = [
         package: "20000 PM"
        },
        {
-        imgName: "ford.png",
+        imgName: "ford.jpg",
         companyName: "Ford",
         students: 1,
         package: "6LPA"
        },
        {
-        imgName: "exterro.png",
+        imgName: "exterro.jpg",
         companyName: "Exterro",
         students: 3,
         package: "3.6 LPA"
        },
        {
-        imgName: "silicon.png",
+        imgName: "silicon.jpg",
         companyName: "Siliconch ",
         students: 3,
         package: "5 LPA"
        },
        {
-        imgName: "versadrives.png",
+        imgName: "versadrives.jpg",
         companyName: "versa drives",
         students: 1,
         package: "4.5LPA"
        },
        {
-        imgName: "lti.png",
+        imgName: "lti.jpg",
         companyName: "LTI",
         students: 1,
         package: "4LPA"
        },
        {
-        imgName: "inmovidu.png",
+        imgName: "inmovidu.jpg",
         companyName: "Inmovidu Technologies (INTERN) ",
         students: 1,
         package: "7LPA"
        },
        {
-        imgName: "renaultnissan.png",
+        imgName: "renaultnissan.jpg",
         companyName: "Renault nissan",
         students: 1,
         package: "4.25LPA"
@@ -359,7 +359,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "20000 PM"
        },
        {
-        imgName: "ganit.png",
+        imgName: "ganit.jpg",
         companyName: "Ganitinc",
         students: 2,
         package: "6 LPA"
@@ -383,13 +383,13 @@ export const statisticsDatas: statisticsType[] = [
         package: "3.36LPA"
        },
        {
-        imgName: "exterro.png",
+        imgName: "exterro.jpg",
         companyName: "Exterro ",
         students: 8,
         package: "4.2LPA"
        },
        {
-        imgName: "qualitest.png",
+        imgName: "qualitest.jpg",
         companyName: "Qualitest ",
         students: 1,
         package: "4LPA"
@@ -407,7 +407,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "4LPA"
        },
        {
-        imgName: "lti.png",
+        imgName: "lti.jpg",
         companyName: "LTI ",
         students: 1,
         package: "4LPA"
@@ -428,7 +428,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "nan"
        },
        {
-        imgName: "mistral.png",
+        imgName: "mistral.jpg",
         companyName: "Mistral solutions ",
         students: 2,
         package: "5lpa"
@@ -508,7 +508,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "5 LPA"
        },
        {
-        imgName: "viasat.png",
+        imgName: "viasat.jpg",
         companyName: "Viasat",
         students: 1,
         package: "14 LPA"
@@ -520,7 +520,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "6.5 LPA"
        },
        {
-        imgName: "multicoreware.png",
+        imgName: "multicoreware.jpg",
         companyName: "Multicoreware ",
         students: 2,
         package: "7.2LPA"
@@ -538,13 +538,13 @@ export const statisticsDatas: statisticsType[] = [
         package: "5.75LPA"
        },
        {
-        imgName: "foodhub.png",
+        imgName: "foodhub.jpg",
         companyName: "FoodHub",
         students: 2,
         package: "7.5LPA"
        },
        {
-        imgName: "ganit.png",
+        imgName: "ganit.jpg",
         companyName: "Ganit",
         students: 1,
         package: "6LPA"
@@ -562,13 +562,13 @@ export const statisticsDatas: statisticsType[] = [
         package: "7.5LPA"
        },
        {
-        imgName: "exterro.png",
+        imgName: "exterro.jpg",
         companyName: "Exterro",
         students: 1,
         package: "4LPA"
        },
        {
-        imgName: "edgeverve.png",
+        imgName: "edgeverve.jpg",
         companyName: "Edgeverve ",
         students: 1,
         package: "8LPA"
@@ -580,13 +580,13 @@ export const statisticsDatas: statisticsType[] = [
         package: "7.5LPA"
        },
        {
-        imgName: "qualitest.png",
+        imgName: "qualitest.jpg",
         companyName: "Qualitest ",
         students: 1,
         package: "4LPA"
        },
        {
-        imgName: "incture.png",
+        imgName: "incture.jpg",
         companyName: "Incture",
         students: 2,
         package: "6.25 LPA"
@@ -636,7 +636,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "5 LPA"
        },
        {
-        imgName: "viasat.png",
+        imgName: "viasat.jpg",
         companyName: "Viasat",
         students: 2,
         package: "14.03 LPA"
@@ -690,19 +690,19 @@ export const statisticsDatas: statisticsType[] = [
         package: "5 LPA"
        },
        {
-        imgName: "ford.png",
+        imgName: "ford.jpg",
         companyName: "Ford",
         students: 2,
         package: "6 LPA"
        },
        {
-        imgName: "exterro.png",
+        imgName: "exterro.jpg",
         companyName: "Exterro",
         students: 4,
         package: "6 LPA"
        },
        {
-        imgName: "edgeverve.png",
+        imgName: "edgeverve.jpg",
         companyName: "Edgeverve",
         students: 2,
         package: "nan"
@@ -745,7 +745,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "3.36 LPA"
        },
        {
-        imgName: "qualitest.png",
+        imgName: "qualitest.jpg",
         companyName: "Qualitest ",
         students: 5,
         package: "4 LPA"
@@ -757,13 +757,13 @@ export const statisticsDatas: statisticsType[] = [
         package: "4 LPA"
        },
        {
-        imgName: "lti.png",
+        imgName: "lti.jpg",
         companyName: "LTI",
         students: 2,
         package: "4 LPA"
        },
        {
-        imgName: "inmovidu.png",
+        imgName: "inmovidu.jpg",
         companyName: "Inmovidu Technologies",
         students: 7,
         package: "7 LPA"
