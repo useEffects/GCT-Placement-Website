@@ -27,7 +27,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "20000 PM"
       },
       {
-        imgName: "musigma.png",
+        imgName: "musigma.jpg",
         companyName: "Mu Sigma",
         students: 2,
         package: "5 lpa"
@@ -114,7 +114,7 @@ export const statisticsDatas: statisticsType[] = [
         students: 1,
         package: "6 LPA"
       }, {
-        imgName: "musigma.png",
+        imgName: "musigma.jpg",
         companyName: "Mu Sigma",
         students: 1,
         package: "5 LPA"
@@ -206,7 +206,7 @@ export const statisticsDatas: statisticsType[] = [
         students: 6,
         package: "4.7LPA"
       }, {
-        imgName: "musigma.png",
+        imgName: "musigma.jpg",
         companyName: "Mu Sigma",
         students: 1,
         package: "5 LPA"
@@ -365,7 +365,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "6 LPA"
        },
        {
-        imgName: "musigma.png",
+        imgName: "musigma.jpg",
         companyName: "MuSigma ",
         students: 5,
         package: "5 LPA"
@@ -684,7 +684,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "7 LPA"
        },
        {
-        imgName: "musigma.png",
+        imgName: "musigma.jpg",
         companyName: "MuSigma",
         students: 1,
         package: "5 LPA"
@@ -727,7 +727,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "4.76 LPA"
        },
        {
-        imgName: "musigma.png",
+        imgName: "musigma.jpg",
         companyName: "MuSigma",
         students: 4,
         package: "5 LPA"
