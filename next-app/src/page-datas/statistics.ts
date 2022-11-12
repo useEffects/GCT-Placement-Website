@@ -63,7 +63,7 @@ export const statisticsDatas: statisticsType[] = [
         students: 7,
         package: "4lpa"
       }, {
-        imgName: "t.png",
+        imgName: "aquagreen.png",
         companyName: "AQUAGREEN",
         students: 2,
         package: "4.25lpa"
@@ -226,7 +226,7 @@ export const statisticsDatas: statisticsType[] = [
         students: 2,
         package: "4 LPA"
       }, {
-        imgName: "t.png",
+        imgName: "aquagreen.png",
         companyName: "Aquagreen",
         students: 1,
         package: "4.3 LPA"
@@ -574,7 +574,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "8LPA"
        },
        {
-        imgName: "t.png",
+        imgName: "tekizma.png",
         companyName: "Tekizma",
         students: 1,
         package: "7.5LPA"
@@ -654,7 +654,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "5.75 LPA"
        },
        {
-        imgName: "t.png",
+        imgName: "bounteous.png",
         companyName: "Bounteous (Lister Technologies)",
         students: 1,
         package: "10 LPA"
@@ -708,7 +708,7 @@ export const statisticsDatas: statisticsType[] = [
         package: "nan"
        },
        {
-        imgName: "t.png",
+        imgName: "tekizma.png",
         companyName: "Tekizma",
         students: 1,
         package: "nan"
@@ -721,7 +721,7 @@ export const statisticsDatas: statisticsType[] = [
     branch: "B.Tech - IBT",
     companies: [
       {
-        imgName: "t.png",
+        imgName: "zifo.png",
         companyName: "Zifo",
         students: 4,
         package: "4.76 LPA"
