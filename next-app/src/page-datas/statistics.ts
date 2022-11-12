@@ -8,7 +8,7 @@ type statisticsType = {
   }[]
 }
 
-export const statisticsData: statisticsType[] = [
+export const statisticsDatas: statisticsType[] = [
 
   //civil
   {
@@ -221,7 +221,7 @@ export const statisticsData: statisticsType[] = [
         students: 1,
         package: "5 LPA"
       }, {
-        imgName: "congizant.png",
+        imgName: "cognizant.png",
         companyName: "Cognizant",
         students: 2,
         package: "4 LPA"
