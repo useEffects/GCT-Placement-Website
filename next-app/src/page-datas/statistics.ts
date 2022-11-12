@@ -68,7 +68,7 @@ export const statisticsDatas: statisticsType[] = [
         students: 2,
         package: "4.25lpa"
       }, {
-        imgName: "landt.png",
+        imgName: "larsentoubro.png",
         companyName: "L&T Infotech",
         students: 2,
         package: "4.6lpa"
@@ -149,7 +149,7 @@ export const statisticsDatas: statisticsType[] = [
         students: 2,
         package: "4.5 LPA"
       }, {
-        imgName: "landt.png",
+        imgName: "larsentoubro.png",
         companyName: "L&T infotech",
         students: 2,
         package: "4-6 LPA"
