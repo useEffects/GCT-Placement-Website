@@ -16,13 +16,13 @@ export const newsData: newsType[] = [
         date:"5-Aug-2019",
         header:"GCT students plant 450 saplings in one minute",
         link:"https://m.timesofindia.com/city/coimbatore/gct-students-plant-450-saplings-in-one-minute/amp_articleshow/70527296.cms",
-        newsLogoImgName:"TheTOI.jpg"
+        newsLogoImgName:"TheTOI.png"
     },
     {
         date:"6-Oct-2018",
         header:"State's faculty training to come up in GCT ",
         link:"https://timesofindia.indiatimes.com/city/coimbatore/states-faculty-training-centre-to-come-up-in-gct/articleshow/66092491.cms ",
-        newsLogoImgName:"TheTOI.jpg"
+        newsLogoImgName:"TheTOI.png"
     },
     {
         date:"23-Nov-2014",
@@ -40,7 +40,7 @@ export const newsData: newsType[] = [
         date:"17-Feb-2020",
         header:"10 Crore funding from state Government budget",
         link:"https://timesofindia.indiatimes.com/city/coimbatore/government-college-of-technology-to-use-budget-allocation-to-boost-infra/articleshow/74166155.cms",
-        newsLogoImgName:"TheTOI.jpg"
+        newsLogoImgName:"TheTOI.png"
     },
     {
         date:"13-Mar-2018",

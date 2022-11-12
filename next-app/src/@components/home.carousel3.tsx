@@ -1,16 +1,14 @@
 import company2 from '../images/Companylogo/45.png'
 import company3 from '../images/Companylogo/17.png'
-// import company4 from '../images/Companylogo/52.png'
-import i1 from '../images/Nithish.jpeg'
-import i2 from '../images/Rathina.jpg'
-import i3 from '../images/Vishal.jpeg'
-// import Fordimg from "../images/logos/FordLogo.png"
-// import Aspireimg from "../images/logos/AspireLogo.png"
+import company4 from '../images/Companylogos/cts.png'
+import i1 from '../images/Nithish.png'
+import i2 from '../images/Rathina.png'
+import i3 from '../images/Vishal.png'
 export default function Carousel3 () {
     const datas = [
         {
             imgSrc: i3.src,
-            name: "Vishal Pranav R B",
+            name: "Vishfal Pranav R B",
             dept: "B Tech IT",
             batch: "2019 - 2023",
             cImgSrc: company2.src,
@@ -20,14 +18,14 @@ export default function Carousel3 () {
             name: "Nithish Kumar R",
             dept: "Electronics and Instrumentation Engineering",
             batch: "2019-2023",
-            cImgSrc: company2.src,//aspire
+            cImgSrc: company3.src,//aspire
         },
         {
             imgSrc: i2.src,
             name: "Rathina Boopathi S",
             dept:  "Civil Engineering",
             batch: "2019 - 2023",
-            cImgSrc: company3.src,//cts
+            cImgSrc: company4.src,//cts
         }
         
     ]
