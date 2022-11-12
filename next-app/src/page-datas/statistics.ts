@@ -168,7 +168,6 @@ export const statisticsDatas: statisticsType[] = [
   },
 
   // eee
-
   {
     branch: "B.E - EEE",
     companies: [
