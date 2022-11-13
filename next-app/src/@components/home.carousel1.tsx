@@ -1,6 +1,6 @@
-import FirstImage from "../images/CompanyAmico.png"
-import SecondImage from "../images/Cheer2.png"
-import ThirdImage from "../images/MoneyIncomeAmico.png"
+import FirstImage from "../images/CompanyAmico.svg"
+import SecondImage from "../images/Cheer2.svg"
+import ThirdImage from "../images/MoneyIncomeAmico.svg"
 
 
 export const Carousel1 = () => {
