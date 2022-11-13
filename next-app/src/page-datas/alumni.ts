@@ -56,7 +56,7 @@ export const alumniDatas: alumniDataType[] = [
                 linkedin:""
             },
             {
-                imgName:"7.jpg",
+                imgName:"8.jpg",
                 Name:"Vidhya Krishnaswamy",
                 position:"Vice President",
                 company:"Capgemini India",
@@ -84,7 +84,7 @@ export const alumniDatas: alumniDataType[] = [
                 linkedin:""
             },
             {
-                imgName:"13.jpg",
+                imgName:"14.jpg",
                 Name:"Gayathri Venkatraman ",
                 position:"Global Head of Strategy and Business Development",
                 company:"Siemens",
@@ -608,8 +608,8 @@ export const alumniDatas: alumniDataType[] = [
                 {
                     imgName:"82.jpg",
                     company:"",
-                    Name:"Suresh Sundarraj",
-                    position:"Creator = Guitar Suresh, Youtube Channel and Principal R&D Engineer, Advanced Technology, Honeywell Aersopace",
+                    Name:"Dr.Suresh Sundarraj",
+                    position:"Creator - Guitar Suresh, Youtube Channel and Principal R&D Engineer, Advanced Technology, Honeywell Aersopace",
                     linkedin:"https://www.linkedin.com/in/sureshsundarraj/"
                 }
 

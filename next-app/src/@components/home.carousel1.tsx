@@ -1,6 +1,6 @@
-import FirstImage from "../images/CompanyAmico.png"
-import SecondImage from "../images/Cheer2.png"
-import ThirdImage from "../images/MoneyIncomeAmico.png"
+import FirstImage from "../images/CompanyAmico.svg"
+import SecondImage from "../images/Cheer2.svg"
+import ThirdImage from "../images/MoneyIncomeAmico.svg"
 
 
 export const Carousel1 = () => {
@@ -8,7 +8,7 @@ export const Carousel1 = () => {
         {
             imgSrc: FirstImage.src,
             header: "Number Of Companies",
-            content: "100 companies, An extensive amount of trustworthy and booming companies that hire in our college.",
+            content: "An extensive amount of trustworthy and booming companies that hire in our college.",
             stat: 100
         },
         {
@@ -20,7 +20,7 @@ export const Carousel1 = () => {
         {
             imgSrc: ThirdImage.src,
             header: "Highest Package",
-            content: "14 LPA, A whopping amount for the deserving ones",
+            content: "A whopping amount for the deserving ones",
             stat: 14+'LPA'
         }
 
