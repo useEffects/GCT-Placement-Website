@@ -1,6 +1,6 @@
 import company2 from '../images/Companylogo/45.png'
 import company3 from '../images/Companylogo/17.png'
-import company4 from '../images/Companylogos/cts.png'
+import company4 from '../images/companylogos/cts.png'
 import i1 from '../images/Nithish.png'
 import i2 from '../images/Rathina.png'
 import i3 from '../images/Vishal.png'
