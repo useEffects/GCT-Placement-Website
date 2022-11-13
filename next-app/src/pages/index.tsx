@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendar } from '@fortawesome/free-solid-svg-icons'
 import Carousel3 from "../@components/home.carousel3";
 import gctimage from "../images/IMG-20200823-WA0004.jpg"
-import ramesh from "../images/RameshSir.png"
+import ramesh from "../images/RameshSir.jpg"
 import DataRepImg from "../images/DataReportPana.png"
 //import bgImg from "../images/org_d039b1c05827a71b_1615168176000-01.jpeg"
 
@@ -49,7 +49,7 @@ export default function Home() {
     </div> */}
 <div className="w-full min-h-[calc(100vh-8rem)] overflow-clip flex flex-col justify-center items-center md:flex-row bg-gray-200 py-12 px-4 md:p-0">
           <div className="flex flex-col w-full h-full justify-center items-start">
-              <div className="-rotate-[0deg] font-extrabold text-2xl md:text-5xl mt-2 ml-[25%] mr-auto">
+              <div className="-rotate-[0deg] font-extrabold text-2xl md:text-5xl mt-2 ml-[25%] mr-auto ">
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-1/4 before:bg-white before:z-[-1]">Placement And</p>
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-2 before:bg-blue-100 before:z-[-1] w-auto">Training</p>
                 <p className="mb-12">Cell</p>
