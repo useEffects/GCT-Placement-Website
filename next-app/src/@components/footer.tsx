@@ -53,14 +53,14 @@ export default function Footer () {
             header: "Social Media",
             buttons: [
                 {
-                    label: "Mobile",
-                    link: ""
+                    label: "Instagram",
+                    link: "https://www.instagram.com/gct_coimbatore/#"
                 }, {
-                    label: "Fax",
-                    link: ""
+                    label: "LinkedIn",
+                    link: "https://www.linkedin.com/school/gctcoimbatore/"
                 }, {
-                    label: "Email",
-                    link: ""
+                    label: "Youtube",
+                    link: "https://youtube.com/c/GCTAlumni"
                 }
             ]
         }
