@@ -44,8 +44,8 @@ function AboutCarousel() {
       header: "Success Story",
       content: "The Placement and Training Cell has always been eminently supportive and has made sure everyone attains what they aim for. The fact that this college has thousands of students who have managed to achieve their goals speaks loudly about what we have managed to accomplish."
     }, {
-      header: "",
-      content: ""
+      header: "Success Story",
+      content: "The Placement "
     }
   ]
 
@@ -75,9 +75,9 @@ function AboutCarousel() {
           <div key={step.label}>
             {Math.abs(activeStep - index) <= 2 ? (
               <div className='h-[500px] flex justify-center items-center w-full relative bg-black'>
-              <div className='relative z-10 w-1/2'>
-                <p className='text-6xl text-white my-4'> {contents[0].header} </p>
-                <p className='text-2xl text-white'> {contents[0].content} </p>
+              <div className='relative z-10 w-full md:w-1/2'>
+                <p className='text-5xl text-white mt-4 mb-9 text-center md:text-6xl'> {contents[index].header} </p>
+                <p className='text-xl text-white px-3.5 text-justify md:text-2xl'> {contents[index].content} </p>
               </div>
               <Box
                 component="img"

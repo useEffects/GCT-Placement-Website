@@ -39,10 +39,10 @@ export default function Navbar () {
     return (
     <div className="h-20">
         <AppBar elevation={0} className="fixed h-20">
-            <Toolbar className="bg-white px-8 md:px-12 h-full flex justify-between items-center">
+            <Toolbar className="bg-white md:px-12 h-full flex justify-between items-center">
                 <div className="h-full">
                     <Link className="cursor-pointer w-full h-full flex items-center" href="/">
-                  <img src={gctLogo.src} />  
+                  <img className="GCTlogo" src={gctLogo.src} />  
                   <p className="md:text-lg ml-4 uppercase text-slate-900 font-bold"> government college of technology </p>
                     </Link>
                 </div>
@@ -67,6 +67,7 @@ export default function Navbar () {
                     <FontAwesomeIcon className="text-inherit ml-2" icon={faRightToBracket}/>
                   </Button>
                 </div>
+               
             </Toolbar>
         </AppBar>           
     </div>

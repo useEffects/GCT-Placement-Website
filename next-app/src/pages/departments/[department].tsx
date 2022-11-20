@@ -19,7 +19,7 @@ export default function department () {
   department = String(department).replace(/-/g, " ") 
   const data = placementDatas.find((p) => p.category.toLowerCase() == department)
   return <>
-    <Container className="my-12 bg-gray-100 rounded-lg p-4">
+    <Container className="w-full my-12 bg-gray-100 rounded-lg p-4 DepartmentWidth">
       <Sidebar />    
       <div className="w-full my-12 py-4 flex">
         <div className="w-[33%] px-4 flex flex-col">

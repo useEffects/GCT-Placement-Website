@@ -33,8 +33,8 @@ export default function Carousel3 () {
     <div className={`w-[1000px] flex justify-center items-center lg:w-[1121px]`}>
         {datas.map((data, i) => <div key={i} className={`w-full shadow-lg bg-white rounded-3xl mx-4 p-4 flex justify-between items-center flex-col`}>
             <img src={data.imgSrc} className="w-[200px] h-[200px] rounded-full bg-gray-200"/>
-            <p className="text-lg font-bold mt-1"> {data.name} </p>
-            <p className="mt-1"> {data.dept} </p>
+            <p className="text-lg font-bold mt-3"> {data.name} </p>
+            <p className="mt-1 text-center"> {data.dept} </p>
             <p> {data.batch} </p>
             <img src={data.cImgSrc} className="object-contain h-[100px] my-2"/>
         </div>)}

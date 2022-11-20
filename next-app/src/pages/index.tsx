@@ -47,14 +47,14 @@ export default function Home() {
         </div>
       </Container>
     </div> */}
-<div className="w-full min-h-[calc(100vh-8rem)] overflow-clip flex flex-col justify-center items-center md:flex-row bg-gray-200 py-12 px-4 md:p-0">
+<div className="w-full min-h-[calc(100vh-8rem)] overflow-clip flex flex-col justify-center content-center py-12 md:flex-row bg-gray-200 py-12 px-4">
           <div className="flex flex-col w-full h-full justify-center items-start">
               <div className="-rotate-[0deg] font-extrabold text-2xl md:text-5xl mt-2 ml-[25%] mr-auto ">
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-1/4 before:bg-white before:z-[-1]">Placement And</p>
                 <p className="mb-6 z-1 relative before:absolute before:-top-2 before:-bottom-2 before:-left-2 before:right-2 before:bg-blue-100 before:z-[-1] w-auto">Training</p>
                 <p className="mb-12">Cell</p>
               </div>
-          <p className="text-md w-1/2 mx-auto italic text-justify md:text-2xl">A carefully curated space for sharing all placement related activities in order to motivate and facilitate students to train meticulously and achieve great results.</p>
+          <p className="text-xl mb-6 w-full mx-auto italic text-justify md:w-1/2 text-2xl">A carefully curated space for sharing all placement related activities in order to motivate and facilitate students to train meticulously and achieve great results.</p>
 
           </div>
          <div className="flex justify-end w-full h-full row-start-1 col-start-2 row-span-2 bg-black">
@@ -79,7 +79,7 @@ export default function Home() {
           <p className="text-center"> Placement And Training Officer </p>
         </div>
         <div className="flex-1 bg-white p-8 lg:p-8">
-          <p className="mt-12 bg-white text-left italic">
+          <p className="mt-12 bg-white text-justify italic">
             I have immense pleasure and pride in introducing you to our bright, vibrant and  young graduates. Government College Technology remains committed to its already well established goodwill. It also  promises to continue to bring glory to this nation. The quality of education and exposure that the students acquire from GCT coupled with their soft skills, make them confident that they are adequately prepared to face the challenges of the corporate world. I am rest assured that our students will definitely contribute meaningfully in the growth and flourish of your organization and you will greatly benefit from their association with your company It is heartening to note that students have already begun the activities concerned With placements like soft skills development,mock group discussions and allied Exercises for the year 2022-23. Like a tree, one must find a place to grow and branch out. I hope hard work, sincerity and updated knowledge in their own domains, coupled with soft-skills will always pave way for our students to find the best places to grow. I also take this opportunity to thank all the industries for their unflinching support and patronage that GCT has been enjoying . I wish the students and organizations for an  impressive and fruitful placement stint in GCT for the year 2022-23.
           </p>
         </div>       
