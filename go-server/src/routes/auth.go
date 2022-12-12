@@ -2,7 +2,6 @@ package route
 
 import (
 	controller "go-server/src/controllers/auth"
-
 	"github.com/gofiber/fiber/v2"
 )
 

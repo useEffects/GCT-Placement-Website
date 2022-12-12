@@ -23,7 +23,7 @@ func main () {
         google.New(GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, "http://localhost:"+PORT+"/api/auth/google/callback"),
     )
     
-    database.SqliteDBC()
+    database.Connect()
     app := fiber.New()
     route.SetupRoutes(app)
     app.Listen(":" + PORT)
