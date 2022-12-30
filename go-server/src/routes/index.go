@@ -15,11 +15,13 @@ func SetupRoutes (app *fiber.App) {
     company := api.Group("/company")
     opening := api.Group("/opening")
     student := api.Group("/student")
-
+    round := api.Group("/round")
+    
     HandleAuth(auth)
     HandleCompany(company)
     HandleOpening(opening)
     HandleStudent(student)
+    HandleRound(round)
 } 
 
 

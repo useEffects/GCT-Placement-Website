@@ -10,6 +10,8 @@ import (
 var listOpeningsQuery string
 //go:embed sql/create-opening.sql
 var createOpeningQuery string
+//go:embed sql/associate-opening-dept.sql
+var associateOpeningDept string
 
 func ListOpenings (ctx *fiber.Ctx) error {
     var openings []Opening 
@@ -28,14 +30,22 @@ func ListOpenings (ctx *fiber.Ctx) error {
 }
 
 func PostOpening (ctx *fiber.Ctx) error {
-    var opening Opening
+    var opening CreateOpeningPayload
     if err := ctx.BodyParser(&opening); err != nil {
         return err
     }
-    _, err := database.DB.Exec(createOpeningQuery, opening.CompanyID, opening.Description)
+    insertedRow := database.DB.QueryRow(createOpeningQuery, opening.CompanyID, opening.OpeningDescription, opening.Round1Description)
+    var id uint
+    err := insertedRow.Scan(&id)
     if err != nil {
         return err
     }
-    return ctx.SendString("Opening added to database successfully !")
+    for _, dept_id := range opening.DepartmentIDs {
+        _, err := database.DB.Exec(associateOpeningDept, id, dept_id)        
+        if err != nil {
+            return err
+        }
+    }
+    opening.ID = id
+    return ctx.JSON(opening)
 }
-

@@ -26,3 +26,10 @@ func ListStudents (ctx *fiber.Ctx) error {
     }
     return ctx.JSON(students)
 }
+
+
+
+
+
+
+

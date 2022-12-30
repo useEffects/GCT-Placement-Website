@@ -13,3 +13,5 @@ type Student struct {
     Gender string `json:"gender" dob:"gender"`
     DepartmentID uint `json:"department_id" db:"department_id"`
 }
+
+
