@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "companies",
+  "info": {
+    "singularName": "company",
+    "pluralName": "companies",
+    "displayName": "Company",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "img_name": {
+      "type": "string"
+    },
+    "openings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::opening.opening",
+      "mappedBy": "companies"
+    },
+    "postings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::posting.posting",
+      "mappedBy": "company"
+    },
+    "departments": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::department.department",
+      "inversedBy": "companies"
+    }
+  }
+}
