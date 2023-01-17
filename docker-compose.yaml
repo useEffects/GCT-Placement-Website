@@ -1,0 +1,47 @@
+version: '3'
+services:
+  next-app:
+    image: next-app:latest
+    stdin_open: true
+    ports:
+      - 3000:3000
+    networks:
+      - myApp
+  cms:
+    image: cms:latest
+    environment:
+      DATABASE_CLIENT: postgres
+      DATABASE_HOST: postgres
+      DATABASE_PORT: 5432
+      DATABASE_NAME: placement_website2
+      DATABASE_USERNAME: postgres
+      DATABASE_PASSWORD: postgres
+      JWT_SECRET: iA/vvSu0mrYOnr+nddcQRw==
+      ADMIN_JWT_SECRET: af1G1dPE7q0A56OVQROX8g==
+      APP_KEYS: qGS0UsSm/JZju7EN00So5A==,ryU7rN4BtJSy4qyOMOvC8g==,sPwqn2Yku1ZRiXg3KH5FJA==,+14l8dE6goTvJjhTxMG8OQ==
+      NODE_ENV: development
+    ports:
+      - '1337:1337'
+    networks:
+      - myApp
+    depends_on:
+      - postgres
+  postgres:
+    container_name: strapiDB
+    platform: linux/amd64
+    image: postgres:12.0-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: placement_website2
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data/ 
+    ports:
+      - '5432:5432'
+    networks:
+      - myApp
+networks:
+  myApp:
+    driver: bridge
+volumes:
+  pgdata:
