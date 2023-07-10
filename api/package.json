@@ -1,0 +1,12 @@
+{
+  "name": "api",
+  "scripts": {
+    "start": "directus start",
+    "schema:export": "directus schema snapshot --yes ./snapshots/latest.yaml",
+    "schema:apply": "directus schema apply --yes ./snapshots/latest.yaml"
+  },
+  "dependencies": {
+    "directus": "^10.4.2",
+    "pg": "^8.11.1"
+  }
+}

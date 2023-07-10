@@ -2,3 +2,4 @@ grafana
 volumes
 node_modules
 npm-debug.log
+api

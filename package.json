@@ -14,7 +14,7 @@
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.12",
     "@mui/styles": "^5.10.10",
-    "@nx-extend/strapi": "^6.1.0",
+    "@nx-extend/strapi": "^6.1.1",
     "@nx/cypress": "16.4.0",
     "@nx/eslint-plugin": "16.4.0",
     "@nx/jest": "16.4.0",
