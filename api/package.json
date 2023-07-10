@@ -1,6 +1,8 @@
 {
   "name": "api",
   "scripts": {
+    "init": "directus init",
+    "bootstrap": "directus bootstrap",
     "start": "directus start",
     "schema:export": "directus schema snapshot --yes ./snapshots/latest.yaml",
     "schema:apply": "directus schema apply --yes ./snapshots/latest.yaml"

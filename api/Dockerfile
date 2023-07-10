@@ -4,4 +4,4 @@ COPY package*.json .
 RUN npm i @napi-rs/snappy-linux-x64-gnu
 COPY . .
 EXPOSE 8055
-CMD npm run start
+CMD npm run bootstrap && npm run start
